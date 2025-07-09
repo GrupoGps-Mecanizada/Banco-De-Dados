@@ -1,0 +1,236 @@
+{
+    "mapeamento_categorias": {
+        "Preparação": {
+            "classificacao": "Operacional",
+            "tipo_atividade": "Preparação / Setup",
+            "gatilho_alerta_minutos": 30,
+            "tempo_normal_minutos": 16,
+            "cor_indicador": "#667eea",
+            "icone": "🔧",
+            "ativo": true,
+            "templates_justificativa": [
+                "Equipamento com defeito",
+                "Falta de material",
+                "Aguardando liberação",
+                "Problema técnico"
+            ]
+        },
+        "Descarregando equipamento": {
+            "classificacao": "Operacional",
+            "tipo_atividade": "Descarga / Limpeza",
+            "gatilho_alerta_minutos": 75,
+            "tempo_normal_minutos": 30,
+            "cor_indicador": "#2ecc71",
+            "icone": "📦",
+            "ativo": true,
+            "templates_justificativa": [
+                "Volume excessivo de material",
+                "Equipamento com problema",
+                "Demora na descarga"
+            ]
+        },
+        "Documentação": {
+            "classificacao": "Operacional",
+            "tipo_atividade": "Processo Administrativo",
+            "gatilho_alerta_minutos": 40,
+            "tempo_normal_minutos": 21,
+            "cor_indicador": "#3498db",
+            "icone": "📋",
+            "ativo": true,
+            "templates_justificativa": [
+                "Sistema fora do ar",
+                "Documentos pendentes",
+                "Liberação atrasada"
+            ]
+        },
+        "Bloqueio": {
+            "classificacao": "Operacional",
+            "tipo_atividade": "Procedimento de Segurança",
+            "gatilho_alerta_minutos": 45,
+            "tempo_normal_minutos": 29,
+            "cor_indicador": "#e74c3c",
+            "icone": "🔒",
+            "ativo": true,
+            "templates_justificativa": [
+                "Procedimento de segurança complexo",
+                "Equipamento com risco",
+                "Bloqueio múltiplo necessário"
+            ]
+        },
+        "Abordagem de Segurança": {
+            "classificacao": "Operacional",
+            "tipo_atividade": "Procedimento de Segurança",
+            "gatilho_alerta_minutos": 25,
+            "tempo_normal_minutos": 12,
+            "cor_indicador": "#f39c12",
+            "icone": "⚠️",
+            "ativo": true,
+            "templates_justificativa": [
+                "DDS estendido",
+                "Reunião de segurança",
+                "Inspeção detalhada"
+            ]
+        },
+        "Abastecimento (Comb/Água)": {
+            "classificacao": "Operacional",
+            "tipo_atividade": "Abastecimento",
+            "gatilho_alerta_minutos": 40,
+            "tempo_normal_minutos": 21,
+            "cor_indicador": "#1abc9c",
+            "icone": "⛽",
+            "ativo": true,
+            "templates_justificativa": [
+                "Fila no posto",
+                "Problema no equipamento de abastecimento",
+                "Demora na liberação"
+            ]
+        },
+        "Troca de Equipamento": {
+            "classificacao": "Operacional",
+            "tipo_atividade": "Troca de Equipamento",
+            "gatilho_alerta_minutos": 20,
+            "tempo_normal_minutos": 3,
+            "cor_indicador": "#9b59b6",
+            "icone": "🔄",
+            "ativo": true,
+            "templates_justificativa": [
+                "Equipamento não disponível",
+                "Problema técnico na troca",
+                "Demora na liberação"
+            ]
+        },
+        "Refeição Motorista": {
+            "classificacao": "Improdutivo Pessoal",
+            "tipo_atividade": "Refeição / Descanso",
+            "gatilho_alerta_minutos": 75,
+            "tempo_normal_minutos": 61,
+            "cor_indicador": "#27ae60",
+            "icone": "🍽️",
+            "ativo": true,
+            "templates_justificativa": [
+                "Horário de pico no refeitório",
+                "Refeição estendida justificada",
+                "Descanso médico recomendado"
+            ]
+        },
+        "Inicio de turno": {
+            "classificacao": "Improdutivo Pessoal",
+            "tipo_atividade": "Início de Turno / DDS",
+            "gatilho_alerta_minutos": 25,
+            "tempo_normal_minutos": 14,
+            "cor_indicador": "#34495e",
+            "icone": "🕐",
+            "ativo": true,
+            "templates_justificativa": [
+                "DDS estendido",
+                "Reunião de briefing",
+                "Entrega de EPIs"
+            ]
+        },
+        "Pausas Diversas": {
+            "classificacao": "Improdutivo Pessoal",
+            "tipo_atividade": "Pausa Pessoal",
+            "gatilho_alerta_minutos": 15,
+            "tempo_normal_minutos": 5,
+            "cor_indicador": "#95a5a6",
+            "icone": "☕",
+            "ativo": true,
+            "templates_justificativa": [
+                "Necessidade pessoal",
+                "Mal-estar",
+                "Hidratação"
+            ]
+        },
+        "Condições Climáticas": {
+            "classificacao": "Improdutivo (Justificado)",
+            "tipo_atividade": "Fator Externo",
+            "gatilho_alerta_minutos": 10,
+            "tempo_normal_minutos": 0,
+            "cor_indicador": "#7f8c8d",
+            "icone": "🌧️",
+            "ativo": true,
+            "templates_justificativa": [
+                "Chuva forte",
+                "Vento excessivo",
+                "Condições adversas"
+            ]
+        },
+        "Aguardando Área": {
+            "classificacao": "Improdutivo (Oport. de Melhoria)",
+            "tipo_atividade": "Fila / Espera Externa",
+            "gatilho_alerta_minutos": 60,
+            "tempo_normal_minutos": 36,
+            "cor_indicador": "#e67e22",
+            "icone": "⏳",
+            "ativo": true,
+            "templates_justificativa": [
+                "Congestionamento na área",
+                "Liberação atrasada",
+                "Falta de vaga disponível"
+            ]
+        },
+        "Aguardando carreta bascular": {
+            "classificacao": "Improdutivo (Oport. de Melhoria)",
+            "tipo_atividade": "Fila / Espera Externa",
+            "gatilho_alerta_minutos": 15,
+            "tempo_normal_minutos": 6,
+            "cor_indicador": "#d35400",
+            "icone": "🚛",
+            "ativo": true,
+            "templates_justificativa": [
+                "Carreta não disponível",
+                "Problema mecânico na carreta",
+                "Demora na liberação"
+            ]
+        },
+        "Aguardando semáforo/cancela": {
+            "classificacao": "Improdutivo (Oport. de Melhoria)",
+            "tipo_atividade": "Fila / Espera Externa",
+            "gatilho_alerta_minutos": 10,
+            "tempo_normal_minutos": 2,
+            "cor_indicador": "#c0392b",
+            "icone": "🚦",
+            "ativo": true,
+            "templates_justificativa": [
+                "Tráfego intenso",
+                "Semáforo com problema",
+                "Fluxo congestionado"
+            ]
+        },
+        "Falta de Acessório": {
+            "classificacao": "Improdutivo (Oport. de Melhoria)",
+            "tipo_atividade": "Falha de Planejamento",
+            "gatilho_alerta_minutos": 15,
+            "tempo_normal_minutos": 8,
+            "cor_indicador": "#8e44ad",
+            "icone": "🔧",
+            "ativo": true,
+            "templates_justificativa": [
+                "Acessório não disponível",
+                "Problema no estoque",
+                "Equipamento em manutenção"
+            ]
+        },
+        "Pequenas manutenções": {
+            "classificacao": "Parada Não Programada",
+            "tipo_atividade": "Manutenção Corretiva Leve",
+            "gatilho_alerta_minutos": 30,
+            "tempo_normal_minutos": 13,
+            "cor_indicador": "#2c3e50",
+            "icone": "🔧",
+            "ativo": true,
+            "templates_justificativa": [
+                "Manutenção preventiva",
+                "Problema mecânico menor",
+                "Ajuste necessário"
+            ]
+        }
+    },
+    "regras_processamento": {
+        "tolerancia_apontamento_curto": 5,
+        "tolerancia_apontamento_zerado": 0,
+        "equipamentos_poucos_apontamentos": 3,
+        "percentual_irregularidade_critica": 40,
+        "percentual_irregularidade_atencao": 20
+    }
+}
