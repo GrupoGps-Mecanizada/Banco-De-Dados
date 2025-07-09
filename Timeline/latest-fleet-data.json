@@ -16256,50 +16256,50 @@
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752087973202,
-    "lastUpdate": "2025-07-09T23:22:30.487Z",
+    "lastUpdate": "2025-07-09T23:23:38.197Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 516.9324776140501,
-      "totalRequests": 443,
+      "avgResponseTime": 416.96623880702504,
+      "totalRequests": 444,
       "totalErrors": 0,
       "uptime": 1752091501912,
-      "memoryUsage": 98,
+      "memoryUsage": 106,
       "cpuUsage": 0,
-      "lastGCTime": 1752102493182,
+      "lastGCTime": 1752103393200,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 26.914753556251526,
-      "githubSyncTime": 2000,
+      "dataProcessingTime": 6.7286883890628815,
+      "githubSyncTime": 10778,
       "dailyCaptures": 1354
     },
     "health": {
-      "status": "warning",
-      "lastHealthCheck": 1752103333265,
+      "status": "healthy",
+      "lastHealthCheck": 1752103393376,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752103333269,
+      "lastHeartbeat": 1752103393379,
       "componentStatus": {
         "dataCapturer": "healthy",
-        "githubSync": "degraded",
+        "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
-        "networking": "degraded",
+        "networking": "healthy",
         "backupManager": "healthy",
         "uiManager": "healthy"
       }
     },
     "uploadStats": {
-      "totalUploads": 128,
+      "totalUploads": 129,
       "totalFailures": 2,
-      "totalRetries": 165,
-      "avgUploadTime": 11804.048078946922
+      "totalRetries": 168,
+      "avgUploadTime": 11293.524039473461
     },
     "compression": true,
     "recordCount": 1354,
-    "uploadTimestamp": 1752103350490,
+    "uploadTimestamp": 1752103418197,
     "sessionId": 1752091501769
   }
 }
