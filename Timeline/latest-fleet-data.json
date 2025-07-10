@@ -4112,31 +4112,31 @@
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752139763763,
-    "lastUpdate": "2025-07-10T11:42:22.189Z",
+    "lastUpdate": "2025-07-10T11:43:27.185Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 805.3274298596698,
-      "totalRequests": 627,
+      "avgResponseTime": 460.6637149298349,
+      "totalRequests": 628,
       "totalErrors": 0,
       "uptime": 1752144662856,
       "memoryUsage": 43,
       "cpuUsage": 0,
       "lastGCTime": 1752147673260,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.015704599602941016,
-      "githubSyncTime": 2000,
+      "dataProcessingTime": 0.003926149900735254,
+      "githubSyncTime": 1993,
       "dailyCaptures": 342
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752147733936,
+      "lastHealthCheck": 1752147793189,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752147733941,
+      "lastHeartbeat": 1752147793190,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -4148,14 +4148,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 21,
+      "totalUploads": 22,
       "totalFailures": 14,
-      "totalRetries": 99,
-      "avgUploadTime": 12396.455691814423
+      "totalRetries": 101,
+      "avgUploadTime": 9193.727845907211
     },
     "compression": true,
     "recordCount": 342,
-    "uploadTimestamp": 1752147742189,
+    "uploadTimestamp": 1752147807185,
     "sessionId": 1752144662738
   }
 }
