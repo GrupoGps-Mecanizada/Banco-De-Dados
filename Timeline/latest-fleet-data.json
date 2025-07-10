@@ -16415,40 +16415,112 @@
       "total_time": 0.21666666666667,
       "captured_at": "2025-07-10T18:43:13.307Z",
       "session_id": 1752023849239
+    },
+    {
+      "id": "1752173053198_evx8nrbjg",
+      "vacancy_code": "309",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 07",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-10 15:15:57",
+      "end": "2025-07-10 15:43:55",
+      "total_time": 0.46611111111111,
+      "captured_at": "2025-07-10T18:44:13.198Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752173053205_fkp1odie6",
+      "vacancy_code": "316",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 05",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-10 15:17:26",
+      "end": "2025-07-10 15:43:57",
+      "total_time": 0.44194444444444,
+      "captured_at": "2025-07-10T18:44:13.205Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752173053220_1fhvcmxjj",
+      "vacancy_code": "573",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 08 - 24 HS",
+      "status": "stopped",
+      "status_title": "Parado Ligado",
+      "start": "2025-07-10 14:18:49",
+      "end": "2025-07-10 15:44:01",
+      "total_time": 1.42,
+      "captured_at": "2025-07-10T18:44:13.220Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752173053231_m16e4xmyb",
+      "vacancy_code": "372",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 10",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-10 15:24:03",
+      "end": "2025-07-10 15:44:06",
+      "total_time": 0.33416666666667,
+      "captured_at": "2025-07-10T18:44:13.231Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752173053236_17byego4f",
+      "vacancy_code": "546",
+      "vacancy_name": "CAMINHÃO HIPER VÁCUO - GPS - 02",
+      "status": "secondary_motor_on",
+      "status_title": "Motor Secundário Ligado",
+      "start": "2025-07-10 15:27:00",
+      "end": "2025-07-10 15:43:30",
+      "total_time": 0.275,
+      "captured_at": "2025-07-10T18:44:13.236Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752173053238_g6wud1x1t",
+      "vacancy_code": "546",
+      "vacancy_name": "CAMINHÃO HIPER VÁCUO - GPS - 02",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-10 15:43:30",
+      "end": "2025-07-10 15:44:06",
+      "total_time": 0.01,
+      "captured_at": "2025-07-10T18:44:13.238Z",
+      "session_id": 1752023849239
     }
   ],
   "metadata": {
-    "totalCaptured": 1368,
-    "duplicateCount": 12423,
+    "totalCaptured": 1374,
+    "duplicateCount": 12587,
     "sessionStart": 1752023849239,
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752139763763,
-    "lastUpdate": "2025-07-10T18:43:22.256Z",
+    "lastUpdate": "2025-07-10T18:44:27.208Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 414.6798853627548,
-      "totalRequests": 1037,
+      "avgResponseTime": 284.3399426813774,
+      "totalRequests": 1038,
       "totalErrors": 0,
       "uptime": 1752144662856,
-      "memoryUsage": 112,
+      "memoryUsage": 97,
       "cpuUsage": 0,
       "lastGCTime": 1752172873218,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.03829792141914368,
-      "githubSyncTime": 2010,
-      "dailyCaptures": 1368
+      "dataProcessingTime": 2.094049202511087,
+      "githubSyncTime": 1944,
+      "dailyCaptures": 1374
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752172993734,
+      "lastHealthCheck": 1752173053274,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752172993756,
+      "lastHeartbeat": 1752173053276,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -16460,14 +16532,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 334,
+      "totalUploads": 335,
       "totalFailures": 29,
-      "totalRetries": 591,
-      "avgUploadTime": 7586.210185498722
+      "totalRetries": 593,
+      "avgUploadTime": 6790.605092749362
     },
     "compression": true,
-    "recordCount": 1368,
-    "uploadTimestamp": 1752173002256,
+    "recordCount": 1374,
+    "uploadTimestamp": 1752173067208,
     "sessionId": 1752144662738
   }
 }
