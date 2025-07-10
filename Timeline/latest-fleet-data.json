@@ -2648,50 +2648,50 @@
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752139763763,
-    "lastUpdate": "2025-07-10T11:09:21.077Z",
+    "lastUpdate": "2025-07-10T11:11:13.219Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 205.12383850918212,
-      "totalRequests": 592,
+      "avgResponseTime": 139.01547981364777,
+      "totalRequests": 595,
       "totalErrors": 0,
       "uptime": 1752144662856,
-      "memoryUsage": 43,
+      "memoryUsage": 42,
       "cpuUsage": 0,
-      "lastGCTime": 1752145264178,
+      "lastGCTime": 1752145864181,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.005538559635169804,
-      "githubSyncTime": 2000,
+      "dataProcessingTime": 0.015711539994299528,
+      "githubSyncTime": 978,
       "dailyCaptures": 220
     },
     "health": {
-      "status": "healthy",
-      "lastHealthCheck": 1752145753507,
+      "status": "warning",
+      "lastHealthCheck": 1752145873219,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752145753570,
+      "lastHeartbeat": 1752145873220,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
-        "networking": "healthy",
+        "networking": "degraded",
         "backupManager": "healthy",
         "uiManager": "healthy"
       }
     },
     "uploadStats": {
-      "totalUploads": 14,
-      "totalFailures": 0,
-      "totalRetries": 21,
-      "avgUploadTime": 8788.328552246094
+      "totalUploads": 15,
+      "totalFailures": 1,
+      "totalRetries": 26,
+      "avgUploadTime": 6831.164276123047
     },
     "compression": true,
     "recordCount": 220,
-    "uploadTimestamp": 1752145761077,
+    "uploadTimestamp": 1752145873219,
     "sessionId": 1752144662738
   }
 }
