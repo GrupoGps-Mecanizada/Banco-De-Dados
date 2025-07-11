@@ -13748,50 +13748,50 @@
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752139763763,
-    "lastUpdate": "2025-07-11T14:41:17.190Z",
+    "lastUpdate": "2025-07-11T14:42:22.192Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 286.89382763491193,
-      "totalRequests": 1496,
+      "avgResponseTime": 323.946913817456,
+      "totalRequests": 1497,
       "totalErrors": 0,
       "uptime": 1752144662856,
-      "memoryUsage": 129,
+      "memoryUsage": 135,
       "cpuUsage": 0,
-      "lastGCTime": 1752244873217,
+      "lastGCTime": 1752244933214,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.0000539999582542805,
-      "githubSyncTime": 1995,
+      "dataProcessingTime": 0.000013499989563570125,
+      "githubSyncTime": 2003,
       "dailyCaptures": 1145
     },
     "health": {
-      "status": "warning",
-      "lastHealthCheck": 1752244873215,
+      "status": "healthy",
+      "lastHealthCheck": 1752244933212,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752244873217,
+      "lastHeartbeat": 1752244933215,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
-        "networking": "degraded",
+        "networking": "healthy",
         "backupManager": "healthy",
         "uiManager": "healthy"
       }
     },
     "uploadStats": {
-      "totalUploads": 660,
+      "totalUploads": 661,
       "totalFailures": 55,
-      "totalRetries": 1180,
-      "avgUploadTime": 11530.58906585143
+      "totalRetries": 1181,
+      "avgUploadTime": 6768.794532925715
     },
     "compression": true,
     "recordCount": 1145,
-    "uploadTimestamp": 1752244877190,
+    "uploadTimestamp": 1752244942192,
     "sessionId": 1752144662738
   }
 }
