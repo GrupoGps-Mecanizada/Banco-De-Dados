@@ -7979,40 +7979,100 @@
       "total_time": 0.76138888888889,
       "captured_at": "2025-07-11T12:26:13.239Z",
       "session_id": 1752023849239
+    },
+    {
+      "id": "1752237373182_u3rso3vrs",
+      "vacancy_code": "536",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 02",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-11 09:06:19",
+      "end": "2025-07-11 09:36:57",
+      "total_time": 0.51055555555556,
+      "captured_at": "2025-07-11T12:36:13.182Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752237373190_ejxdiemil",
+      "vacancy_code": "535",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 03",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-11 09:08:46",
+      "end": "2025-07-11 09:36:57",
+      "total_time": 0.46972222222222,
+      "captured_at": "2025-07-11T12:36:13.190Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752237373193_qleqwf0wc",
+      "vacancy_code": "526",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 04",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-11 09:29:18",
+      "end": "2025-07-11 09:36:57",
+      "total_time": 0.1275,
+      "captured_at": "2025-07-11T12:36:13.193Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752237373195_4rqaejk3w",
+      "vacancy_code": "526",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 04",
+      "status": "stopped",
+      "status_title": "Parado Ligado",
+      "start": "2025-07-11 09:23:48",
+      "end": "2025-07-11 09:29:18",
+      "total_time": 0.091666666666667,
+      "captured_at": "2025-07-11T12:36:13.195Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752237373196_buloztia7",
+      "vacancy_code": "526",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 04",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-11 09:13:20",
+      "end": "2025-07-11 09:23:48",
+      "total_time": 0.17444444444444,
+      "captured_at": "2025-07-11T12:36:13.196Z",
+      "session_id": 1752023849239
     }
   ],
   "metadata": {
-    "totalCaptured": 665,
-    "duplicateCount": 2165,
+    "totalCaptured": 670,
+    "duplicateCount": 2194,
     "sessionStart": 1752023849239,
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752139763763,
-    "lastUpdate": "2025-07-11T12:35:21.174Z",
+    "lastUpdate": "2025-07-11T12:36:28.185Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 220.72416582965798,
-      "totalRequests": 1368,
+      "avgResponseTime": 214.862082914829,
+      "totalRequests": 1369,
       "totalErrors": 0,
       "uptime": 1752144662856,
       "memoryUsage": 113,
       "cpuUsage": 0,
       "lastGCTime": 1752237253215,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.000001128139786032989,
-      "githubSyncTime": 2105,
-      "dailyCaptures": 665
+      "dataProcessingTime": 0.12510681152397543,
+      "githubSyncTime": 2005,
+      "dailyCaptures": 670
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752237313196,
+      "lastHealthCheck": 1752237373207,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752237313199,
+      "lastHeartbeat": 1752237373210,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -8024,14 +8084,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 560,
+      "totalUploads": 561,
       "totalFailures": 53,
-      "totalRetries": 1040,
-      "avgUploadTime": 9000.223619711422
+      "totalRetries": 1042,
+      "avgUploadTime": 7496.611809855711
     },
     "compression": true,
-    "recordCount": 665,
-    "uploadTimestamp": 1752237321174,
+    "recordCount": 670,
+    "uploadTimestamp": 1752237388185,
     "sessionId": 1752144662738
   }
 }
