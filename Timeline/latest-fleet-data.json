@@ -2888,50 +2888,50 @@
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752335326773,
-    "lastUpdate": "2025-07-12T16:13:10.939Z",
+    "lastUpdate": "2025-07-12T16:14:36.158Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 138.85450231396123,
-      "totalRequests": 1520,
+      "avgResponseTime": 159.4636255784903,
+      "totalRequests": 1522,
       "totalErrors": 0,
       "uptime": 1752335609823,
-      "memoryUsage": 70,
+      "memoryUsage": 69,
       "cpuUsage": 0,
-      "lastGCTime": 1752336210852,
+      "lastGCTime": 1752336810842,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 4.6346406826226806e-7,
-      "githubSyncTime": 1045,
+      "dataProcessingTime": 2.8966504266391754e-8,
+      "githubSyncTime": 1003,
       "dailyCaptures": 240
     },
     "health": {
-      "status": "healthy",
-      "lastHealthCheck": 1752336786154,
+      "status": "warning",
+      "lastHealthCheck": 1752336876160,
       "memoryPressure": false,
       "errorThresholdReached": false,
-      "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752336786155,
+      "circuitBreakerOpen": true,
+      "lastHeartbeat": 1752336876161,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
-        "networking": "healthy",
+        "networking": "degraded",
         "backupManager": "healthy",
         "uiManager": "healthy"
       }
     },
     "uploadStats": {
-      "totalUploads": 7,
-      "totalFailures": 1,
-      "totalRetries": 17,
-      "avgUploadTime": 8677.4609375
+      "totalUploads": 8,
+      "totalFailures": 2,
+      "totalRetries": 22,
+      "avgUploadTime": 13534.23046875
     },
     "compression": true,
     "recordCount": 240,
-    "uploadTimestamp": 1752336790940,
+    "uploadTimestamp": 1752336876158,
     "sessionId": 1752335609703
   }
 }
