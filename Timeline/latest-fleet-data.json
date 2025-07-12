@@ -5627,59 +5627,107 @@
       "total_time": 15.516388888889,
       "captured_at": "2025-07-12T18:30:13.210Z",
       "session_id": 1752023849239
+    },
+    {
+      "id": "1752345073170_2rxlogejg",
+      "vacancy_code": "573",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 08 - 24 HS",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-12 15:21:43",
+      "end": "2025-07-12 15:25:13",
+      "total_time": 0.058333333333333,
+      "captured_at": "2025-07-12T18:31:13.170Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752345073171_bq7lwe08v",
+      "vacancy_code": "573",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 08 - 24 HS",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-12 15:12:35",
+      "end": "2025-07-12 15:21:43",
+      "total_time": 0.15222222222222,
+      "captured_at": "2025-07-12T18:31:13.171Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752345073171_hb3m6cycs",
+      "vacancy_code": "573",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 08 - 24 HS",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-12 15:25:13",
+      "end": "2025-07-12 15:30:59",
+      "total_time": 0.096111111111111,
+      "captured_at": "2025-07-12T18:31:13.171Z",
+      "session_id": 1752023849239
+    },
+    {
+      "id": "1752345073171_owi05qqr7",
+      "vacancy_code": "546",
+      "vacancy_name": "CAMINHÃO HIPER VÁCUO - GPS - 02",
+      "status": "not_appropriated",
+      "status_title": "Indisponível / Sem Apropriação",
+      "start": "2025-07-12 00:00",
+      "end": "2025-07-12 15:31:06",
+      "total_time": 15.518333333333,
+      "captured_at": "2025-07-12T18:31:13.171Z",
+      "session_id": 1752023849239
     }
   ],
   "metadata": {
-    "totalCaptured": 469,
-    "duplicateCount": 1323,
+    "totalCaptured": 473,
+    "duplicateCount": 1384,
     "sessionStart": 1752023849239,
     "lastReset": null,
     "version": "4.2.1-enterprise-complete",
     "lastPersist": 1752335326773,
-    "lastUpdate": "2025-07-12T18:30:37.162Z",
+    "lastUpdate": "2025-07-12T18:32:17.170Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 199.44345715405686,
-      "totalRequests": 1676,
+      "avgResponseTime": 209.86086428851422,
+      "totalRequests": 1678,
       "totalErrors": 0,
       "uptime": 1752335609823,
-      "memoryUsage": 86,
+      "memoryUsage": 92,
       "cpuUsage": 0,
       "lastGCTime": 1752344653196,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.03171193692833185,
-      "githubSyncTime": 2006,
-      "dailyCaptures": 469
+      "dataProcessingTime": 0.09424549901450519,
+      "githubSyncTime": 2008,
+      "dailyCaptures": 473
     },
     "health": {
-      "status": "healthy",
-      "lastHealthCheck": 1752345013246,
+      "status": "warning",
+      "lastHealthCheck": 1752345133187,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752345013246,
+      "lastHeartbeat": 1752345133188,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
-        "networking": "healthy",
+        "networking": "degraded",
         "backupManager": "healthy",
         "uiManager": "healthy"
       }
     },
     "uploadStats": {
-      "totalUploads": 117,
+      "totalUploads": 118,
       "totalFailures": 6,
       "totalRetries": 234,
-      "avgUploadTime": 9723.315912230977
+      "avgUploadTime": 15862.657956115489
     },
     "compression": true,
-    "recordCount": 469,
-    "uploadTimestamp": 1752345037162,
+    "recordCount": 473,
+    "uploadTimestamp": 1752345137170,
     "sessionId": 1752335609703
   }
 }
