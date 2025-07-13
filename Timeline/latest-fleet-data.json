@@ -3342,22 +3342,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T13:12:16.158Z",
+    "lastUpdate": "2025-07-13T13:13:16.157Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 386.5477303560645,
-      "totalRequests": 688,
+      "avgResponseTime": 264.2738651780322,
+      "totalRequests": 689,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 89,
+      "memoryUsage": 91,
       "cpuUsage": 0,
       "lastGCTime": 1752412273241,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.04249104671274617,
-      "githubSyncTime": 2000,
+      "githubSyncTime": 2004,
       "dailyCaptures": 2906,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3372,11 +3372,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752412333205,
+      "lastHealthCheck": 1752412393186,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752412333205,
+      "lastHeartbeat": 1752412393187,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3390,14 +3390,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 74,
+      "totalUploads": 75,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2117.430655152831
+      "avgUploadTime": 2060.715327576416
     },
     "compression": true,
     "recordCount": 185,
-    "uploadTimestamp": 1752412336158,
+    "uploadTimestamp": 1752412396157,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3411,8 +3411,8 @@
       "hibernationCycles": 5,
       "avgBufferSize": 9.010751724252259,
       "forcedProcessing": 0,
-      "nextWakeup": "10:21:46",
-      "lastCycleTime": 1752412336159
+      "nextWakeup": "10:22:46",
+      "lastCycleTime": 1752412396157
     }
   }
 }
