@@ -7139,7 +7139,7 @@
   ],
   "metadata": {
     "totalCaptured": 446,
-    "duplicateCount": 8654,
+    "duplicateCount": 8700,
     "sessionStart": 1752346109222,
     "lastReset": null,
     "version": "4.3.0-enterprise-production",
@@ -7148,22 +7148,22 @@
       "resolved": 0
     },
     "lastPersist": 1752360403061,
-    "lastUpdate": "2025-07-13T02:52:16.196Z",
+    "lastUpdate": "2025-07-13T02:53:16.172Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 191.38375473743045,
-      "totalRequests": 573,
+      "avgResponseTime": 199.6918773687152,
+      "totalRequests": 574,
       "totalErrors": 0,
       "uptime": 1752360409032,
       "memoryUsage": 116,
       "cpuUsage": 0,
       "lastGCTime": 1752375133574,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.44381143152713776,
-      "githubSyncTime": 3005,
+      "dataProcessingTime": 0.45136910723522305,
+      "githubSyncTime": 2972,
       "dailyCaptures": 2539,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -7171,11 +7171,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752375133569,
+      "lastHealthCheck": 1752375193220,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752375133570,
+      "lastHeartbeat": 1752375193220,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -7189,14 +7189,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 519,
+      "totalUploads": 520,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2936.29056859484
+      "avgUploadTime": 2954.14528429742
     },
     "compression": true,
     "recordCount": 446,
-    "uploadTimestamp": 1752375136196,
+    "uploadTimestamp": 1752375196172,
     "sessionId": 1752360408897,
     "statusConflicts": {
       "totalConflicts": 50,
