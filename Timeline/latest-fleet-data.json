@@ -3922,14 +3922,14 @@
       "events": 0
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T21:50:30.920Z",
+    "lastUpdate": "2025-07-13T21:51:00.648Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 272.51337827585223,
-      "totalRequests": 281,
+      "avgResponseTime": 204.25668913792612,
+      "totalRequests": 282,
       "totalErrors": 0,
       "uptime": 1752442256909,
       "memoryUsage": 51,
@@ -3937,7 +3937,7 @@
       "lastGCTime": 1752443166925,
       "requestsPerMinute": 0,
       "dataProcessingTime": 23.28367944381025,
-      "githubSyncTime": 1084,
+      "githubSyncTime": 1250,
       "dailyCaptures": 471,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3955,11 +3955,11 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752443426905,
+      "lastHealthCheck": 1752443457068,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752443426905,
+      "lastHeartbeat": 1752443457069,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3975,14 +3975,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 36,
+      "totalUploads": 37,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1218.723648604151
+      "avgUploadTime": 1234.3618243020755
     },
     "compression": true,
     "recordCount": 186,
-    "uploadTimestamp": 1752443430920,
+    "uploadTimestamp": 1752443460648,
     "sessionId": 1752442256907,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3998,7 +3998,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "18:52:23",
-      "lastCycleTime": 1752443430920,
+      "lastCycleTime": 1752443460648,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
