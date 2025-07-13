@@ -3324,22 +3324,22 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752418771481,
-    "lastUpdate": "2025-07-13T15:05:59.647Z",
+    "lastUpdate": "2025-07-13T15:06:14.084Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 104.4459460102953,
-      "totalRequests": 31,
+      "avgResponseTime": 124.22297300514765,
+      "totalRequests": 32,
       "totalErrors": 0,
       "uptime": 1752418779689,
-      "memoryUsage": 74,
+      "memoryUsage": 79,
       "cpuUsage": 0,
       "lastGCTime": 1752419080699,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.13794250914739037,
-      "githubSyncTime": 1768,
+      "githubSyncTime": 1601,
       "dailyCaptures": 207,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3356,11 +3356,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752419142545,
+      "lastHealthCheck": 1752419162572,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752419142546,
+      "lastHeartbeat": 1752419170699,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3375,14 +3375,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 21,
+      "totalUploads": 22,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1532.4127969741821
+      "avgUploadTime": 1566.706398487091
     },
     "compression": true,
     "recordCount": 150,
-    "uploadTimestamp": 1752419159647,
+    "uploadTimestamp": 1752419174084,
     "sessionId": 1752418779611,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3398,7 +3398,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "12:10:55",
-      "lastCycleTime": 1752419159647,
+      "lastCycleTime": 1752419174085,
       "fixesApplied": true
     },
     "eventReconciliation": {
