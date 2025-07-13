@@ -3468,22 +3468,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T13:34:09.169Z",
+    "lastUpdate": "2025-07-13T13:34:24.434Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 412.2375150003103,
-      "totalRequests": 725,
+      "avgResponseTime": 290.61875750015514,
+      "totalRequests": 726,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 87,
+      "memoryUsage": 90,
       "cpuUsage": 0,
       "lastGCTime": 1752413473188,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.04101615586857403,
-      "githubSyncTime": 2996,
+      "githubSyncTime": 1990,
       "dailyCaptures": 2913,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3502,11 +3502,11 @@
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752413647165,
+      "lastHeartbeat": 1752413656195,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
-        "dateAutomation": "healthy",
+        "dateAutomation": "critical",
         "memoryManager": "healthy",
         "networking": "healthy",
         "backupManager": "healthy",
@@ -3516,14 +3516,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 111,
+      "totalUploads": 112,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2498.768698960713
+      "avgUploadTime": 2244.384349480357
     },
     "compression": true,
     "recordCount": 192,
-    "uploadTimestamp": 1752413649169,
+    "uploadTimestamp": 1752413664434,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3537,8 +3537,8 @@
       "hibernationCycles": 7,
       "avgBufferSize": 9.008808160201738,
       "forcedProcessing": 0,
-      "nextWakeup": "10:43:39",
-      "lastCycleTime": 1752413649169
+      "nextWakeup": "10:43:54",
+      "lastCycleTime": 1752413664434
     }
   }
 }
