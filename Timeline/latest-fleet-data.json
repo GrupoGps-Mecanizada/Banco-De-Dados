@@ -3882,22 +3882,22 @@
       "resolved": 0
     },
     "lastPersist": 1752413690167,
-    "lastUpdate": "2025-07-13T14:34:16.378Z",
+    "lastUpdate": "2025-07-13T14:34:23.316Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 299.60926574710345,
-      "totalRequests": 785,
+      "avgResponseTime": 244.30463287355172,
+      "totalRequests": 786,
       "totalErrors": 0,
       "uptime": 1752415315425,
-      "memoryUsage": 77,
+      "memoryUsage": 79,
       "cpuUsage": 0,
       "lastGCTime": 1752417133180,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.6495971847337112,
-      "githubSyncTime": 3000,
+      "githubSyncTime": 3809,
       "dailyCaptures": 2936,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3913,15 +3913,15 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752417253249,
+      "lastHealthCheck": 1752417260985,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752417253287,
+      "lastHeartbeat": 1752417260985,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
-        "dateAutomation": "healthy",
+        "dateAutomation": "degraded",
         "memoryManager": "healthy",
         "networking": "healthy",
         "backupManager": "healthy",
@@ -3931,14 +3931,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 59,
+      "totalUploads": 60,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2518.416231829553
+      "avgUploadTime": 3163.7081159147765
     },
     "compression": true,
     "recordCount": 215,
-    "uploadTimestamp": 1752417256378,
+    "uploadTimestamp": 1752417263316,
     "sessionId": 1752415315370,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3954,7 +3954,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 1,
       "nextWakeup": "11:43:30",
-      "lastCycleTime": 1752417256378,
+      "lastCycleTime": 1752417263316,
       "fixesApplied": true
     }
   }
