@@ -3280,22 +3280,22 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752418771481,
-    "lastUpdate": "2025-07-13T15:01:29.213Z",
+    "lastUpdate": "2025-07-13T15:01:44.028Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 212.0709228515625,
-      "totalRequests": 13,
+      "avgResponseTime": 148.03546142578125,
+      "totalRequests": 14,
       "totalErrors": 0,
       "uptime": 1752418779689,
-      "memoryUsage": 74,
+      "memoryUsage": 76,
       "cpuUsage": 0,
       "lastGCTime": 1752418755177,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.6022358669980732,
-      "githubSyncTime": 1525,
+      "githubSyncTime": 1569,
       "dailyCaptures": 205,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3312,11 +3312,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752418882573,
+      "lastHealthCheck": 1752418902549,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752418882574,
+      "lastHeartbeat": 1752418902551,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3331,14 +3331,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 3,
+      "totalUploads": 4,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1353.25
+      "avgUploadTime": 1461.125
     },
     "compression": true,
     "recordCount": 148,
-    "uploadTimestamp": 1752418889213,
+    "uploadTimestamp": 1752418904028,
     "sessionId": 1752418779611,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3354,7 +3354,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "12:05:12",
-      "lastCycleTime": 1752418889213,
+      "lastCycleTime": 1752418904028,
       "fixesApplied": true
     },
     "eventReconciliation": {
