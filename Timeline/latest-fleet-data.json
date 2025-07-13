@@ -4786,14 +4786,14 @@
       "version": "4.3.2-enterprise-production-ere-stable"
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T16:05:52.203Z",
+    "lastUpdate": "2025-07-13T16:06:07.222Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 209.67377664148808,
-      "totalRequests": 27,
+      "avgResponseTime": 166.33688832074404,
+      "totalRequests": 28,
       "totalErrors": 0,
       "uptime": 1752422275673,
       "memoryUsage": 77,
@@ -4801,7 +4801,7 @@
       "lastGCTime": 1752422576690,
       "requestsPerMinute": 0,
       "dataProcessingTime": 1.8321361728594638,
-      "githubSyncTime": 1010,
+      "githubSyncTime": 996,
       "dailyCaptures": 207,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -4819,11 +4819,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752422738427,
+      "lastHealthCheck": 1752422758428,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752422738427,
+      "lastHeartbeat": 1752422758428,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -4839,14 +4839,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 24,
+      "totalUploads": 25,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1184.265956223011
+      "avgUploadTime": 1090.1329781115055
     },
     "compression": true,
     "recordCount": 207,
-    "uploadTimestamp": 1752422752203,
+    "uploadTimestamp": 1752422767223,
     "sessionId": 1752422275601,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -4862,7 +4862,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 1,
       "nextWakeup": "13:08:40",
-      "lastCycleTime": 1752422752203,
+      "lastCycleTime": 1752422767223,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
