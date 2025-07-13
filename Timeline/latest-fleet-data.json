@@ -7027,7 +7027,7 @@
   ],
   "metadata": {
     "totalCaptured": 439,
-    "duplicateCount": 8298,
+    "duplicateCount": 8299,
     "sessionStart": 1752346109222,
     "lastReset": null,
     "version": "4.3.0-enterprise-production",
@@ -7036,22 +7036,22 @@
       "resolved": 0
     },
     "lastPersist": 1752360403061,
-    "lastUpdate": "2025-07-13T02:42:16.172Z",
+    "lastUpdate": "2025-07-13T02:43:16.176Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 136.9648511287739,
-      "totalRequests": 563,
+      "avgResponseTime": 126.48242556438694,
+      "totalRequests": 564,
       "totalErrors": 0,
       "uptime": 1752360409032,
-      "memoryUsage": 109,
+      "memoryUsage": 111,
       "cpuUsage": 0,
       "lastGCTime": 1752374533277,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.5777588188648224,
-      "githubSyncTime": 2001,
+      "dataProcessingTime": 0.1972198523581028,
+      "githubSyncTime": 1989,
       "dailyCaptures": 2532,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -7059,11 +7059,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752374533251,
+      "lastHealthCheck": 1752374593206,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752374533251,
+      "lastHeartbeat": 1752374593208,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -7077,14 +7077,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 509,
+      "totalUploads": 510,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2172.5422411161917
+      "avgUploadTime": 2080.771120558096
     },
     "compression": true,
     "recordCount": 439,
-    "uploadTimestamp": 1752374536172,
+    "uploadTimestamp": 1752374596176,
     "sessionId": 1752360408897,
     "statusConflicts": {
       "totalConflicts": 50,
