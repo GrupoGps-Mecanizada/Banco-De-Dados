@@ -3280,7 +3280,7 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752418771481,
-    "lastUpdate": "2025-07-13T15:01:11.677Z",
+    "lastUpdate": "2025-07-13T15:01:14.028Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
@@ -3295,7 +3295,7 @@
       "lastGCTime": 1752418755177,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.6022358669980732,
-      "githubSyncTime": 2105,
+      "githubSyncTime": 1309,
       "dailyCaptures": 205,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3331,14 +3331,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 1,
+      "totalUploads": 2,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1053
+      "avgUploadTime": 1181.5
     },
     "compression": true,
     "recordCount": 148,
-    "uploadTimestamp": 1752418871677,
+    "uploadTimestamp": 1752418874028,
     "sessionId": 1752418779611,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3354,7 +3354,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "12:05:12",
-      "lastCycleTime": 1752418871677,
+      "lastCycleTime": 1752418874028,
       "fixesApplied": true
     },
     "eventReconciliation": {
