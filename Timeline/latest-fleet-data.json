@@ -3324,14 +3324,14 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752418771481,
-    "lastUpdate": "2025-07-13T15:06:29.073Z",
+    "lastUpdate": "2025-07-13T15:06:44.052Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 119.61148650257383,
-      "totalRequests": 33,
+      "avgResponseTime": 118.80574325128691,
+      "totalRequests": 34,
       "totalErrors": 0,
       "uptime": 1752418779689,
       "memoryUsage": 78,
@@ -3339,7 +3339,7 @@
       "lastGCTime": 1752419080699,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.13794250914739037,
-      "githubSyncTime": 1321,
+      "githubSyncTime": 1099,
       "dailyCaptures": 207,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3356,11 +3356,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752419182543,
+      "lastHealthCheck": 1752419202544,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752419182544,
+      "lastHeartbeat": 1752419202544,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3375,14 +3375,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 23,
+      "totalUploads": 24,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1443.8531992435455
+      "avgUploadTime": 1271.4265996217728
     },
     "compression": true,
     "recordCount": 150,
-    "uploadTimestamp": 1752419189073,
+    "uploadTimestamp": 1752419204052,
     "sessionId": 1752418779611,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3398,7 +3398,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "12:10:55",
-      "lastCycleTime": 1752419189073,
+      "lastCycleTime": 1752419204052,
       "fixesApplied": true
     },
     "eventReconciliation": {
