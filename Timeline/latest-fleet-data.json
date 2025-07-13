@@ -3743,11 +3743,29 @@
       "operational_priority": 100,
       "status_category": "priority_resolution",
       "conflict_resolved": true
+    },
+    {
+      "id": "1752416594300_d3iivokjf",
+      "vacancy_code": "824",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 02 - 16 HS",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-13 11:21:02",
+      "end": "2025-07-13 11:24:00",
+      "total_time": 0.049444444444444,
+      "captured_at": "2025-07-13T14:23:14.300Z",
+      "session_id": 1752346109222,
+      "production_status": "Improdutivo (Ocioso)",
+      "vehicle_type": "AUTO VÁCUO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 10,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true
     }
   ],
   "metadata": {
-    "totalCaptured": 208,
-    "duplicateCount": 902,
+    "totalCaptured": 209,
+    "duplicateCount": 956,
     "sessionStart": 1752346109222,
     "lastReset": null,
     "version": "4.3.0-enterprise-production",
@@ -3756,7 +3774,7 @@
       "resolved": 0
     },
     "lastPersist": 1752413690167,
-    "lastUpdate": "2025-07-13T14:22:53.213Z",
+    "lastUpdate": "2025-07-13T14:23:16.310Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
@@ -3770,30 +3788,30 @@
       "cpuUsage": 0,
       "lastGCTime": 1752416516437,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.15872237202757344,
-      "githubSyncTime": 1140,
-      "dailyCaptures": 2929,
+      "dataProcessingTime": 0.28126937528955415,
+      "githubSyncTime": 1193,
+      "dailyCaptures": 2930,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "manualCaptures": 1,
       "intelligentCycleStats": {
-        "totalCycles": 31,
-        "avgAggregationTime": 9.684295065235347,
-        "avgRecordsPerCycle": 3.0332593470811844,
-        "hibernationCycles": 9,
+        "totalCycles": 33,
+        "avgAggregationTime": 7.671073766308837,
+        "avgRecordsPerCycle": 1.258314836770296,
+        "hibernationCycles": 10,
         "forcedProcessing": 0
       }
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752416558060,
+      "lastHealthCheck": 1752416596566,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752416558060,
+      "lastHeartbeat": 1752416596566,
       "componentStatus": {
-        "dataCapturer": "healthy",
+        "dataCapturer": "hibernating",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
@@ -3805,14 +3823,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 40,
+      "totalUploads": 41,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1136.3534527110487
+      "avgUploadTime": 1164.6767263555244
     },
     "compression": true,
-    "recordCount": 208,
-    "uploadTimestamp": 1752416573214,
+    "recordCount": 209,
+    "uploadTimestamp": 1752416596310,
     "sessionId": 1752415315370,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3821,14 +3839,14 @@
     },
     "intelligentCycle": {
       "enabled": true,
-      "hibernationStatus": "active",
-      "aggregationCycles": 9,
-      "hibernationCycles": 2,
-      "avgBufferSize": 4.750068711582574,
+      "hibernationStatus": "hibernating",
+      "aggregationCycles": 12,
+      "hibernationCycles": 3,
+      "avgBufferSize": 3.5632019126845194,
       "forcedProcessing": 0,
       "manualCaptures": 1,
-      "nextWakeup": "N/A",
-      "lastCycleTime": 1752416573214,
+      "nextWakeup": "11:32:44",
+      "lastCycleTime": 1752416596310,
       "fixesApplied": true
     }
   }
