@@ -2028,22 +2028,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:23:24.176Z",
+    "lastUpdate": "2025-07-13T12:23:43.157Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 363.52027830009615,
-      "totalRequests": 645,
+      "avgResponseTime": 260.2601391500481,
+      "totalRequests": 646,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 82,
+      "memoryUsage": 83,
       "cpuUsage": 0,
       "lastGCTime": 1752409245673,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.5351601402515851,
-      "githubSyncTime": 2030,
+      "githubSyncTime": 3984,
       "dailyCaptures": 2833,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -2058,15 +2058,15 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752409387161,
+      "lastHealthCheck": 1752409409162,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752409396213,
+      "lastHeartbeat": 1752409409163,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
-        "dateAutomation": "healthy",
+        "dateAutomation": "critical",
         "memoryManager": "healthy",
         "networking": "healthy",
         "backupManager": "healthy",
@@ -2076,14 +2076,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 27,
+      "totalUploads": 28,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1748.6911047920585
+      "avgUploadTime": 2866.3455523960292
     },
     "compression": true,
     "recordCount": 112,
-    "uploadTimestamp": 1752409404176,
+    "uploadTimestamp": 1752409423157,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -2097,8 +2097,8 @@
       "hibernationCycles": 1,
       "avgBufferSize": 19.00000262632966,
       "forcedProcessing": 0,
-      "nextWakeup": "09:32:54",
-      "lastCycleTime": 1752409404176
+      "nextWakeup": "09:33:13",
+      "lastCycleTime": 1752409423157
     }
   }
 }
