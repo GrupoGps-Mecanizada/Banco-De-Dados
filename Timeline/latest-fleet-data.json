@@ -3901,22 +3901,22 @@
       "events": 0
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T21:35:30.668Z",
+    "lastUpdate": "2025-07-13T21:36:00.652Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 172.78944767603565,
-      "totalRequests": 254,
+      "avgResponseTime": 157.89472383801782,
+      "totalRequests": 255,
       "totalErrors": 0,
       "uptime": 1752442256909,
-      "memoryUsage": 49,
+      "memoryUsage": 48,
       "cpuUsage": 0,
       "lastGCTime": 1752441431398,
       "requestsPerMinute": 0,
       "dataProcessingTime": 15.975500923392815,
-      "githubSyncTime": 1409,
+      "githubSyncTime": 1753,
       "dailyCaptures": 470,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3934,11 +3934,11 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752442526899,
+      "lastHealthCheck": 1752442557069,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752442526900,
+      "lastHeartbeat": 1752442557070,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3954,14 +3954,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 8,
+      "totalUploads": 9,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1452.0390625
+      "avgUploadTime": 1602.51953125
     },
     "compression": true,
     "recordCount": 185,
-    "uploadTimestamp": 1752442530668,
+    "uploadTimestamp": 1752442560652,
     "sessionId": 1752442256907,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3977,7 +3977,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "18:41:42",
-      "lastCycleTime": 1752442530668,
+      "lastCycleTime": 1752442560652,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
