@@ -4786,22 +4786,22 @@
       "version": "4.3.2-enterprise-production-ere-stable"
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T16:00:07.254Z",
+    "lastUpdate": "2025-07-13T16:00:22.357Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 118.125,
-      "totalRequests": 4,
+      "avgResponseTime": 182.0625,
+      "totalRequests": 5,
       "totalErrors": 0,
       "uptime": 1752422275673,
-      "memoryUsage": 79,
+      "memoryUsage": 76,
       "cpuUsage": 0,
       "lastGCTime": null,
       "requestsPerMinute": 0,
       "dataProcessingTime": 1.8321361728594638,
-      "githubSyncTime": 1723,
+      "githubSyncTime": 1487,
       "dailyCaptures": 207,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -4819,11 +4819,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752422398435,
+      "lastHealthCheck": 1752422418434,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752422398436,
+      "lastHeartbeat": 1752422418435,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -4839,14 +4839,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 1,
+      "totalUploads": 2,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 861.5
+      "avgUploadTime": 1174.25
     },
     "compression": true,
     "recordCount": 207,
-    "uploadTimestamp": 1752422407254,
+    "uploadTimestamp": 1752422422358,
     "sessionId": 1752422275601,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -4862,7 +4862,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 1,
       "nextWakeup": "13:08:40",
-      "lastCycleTime": 1752422407254,
+      "lastCycleTime": 1752422422358,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
