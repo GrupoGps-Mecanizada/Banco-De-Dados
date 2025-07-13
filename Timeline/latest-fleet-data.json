@@ -3342,22 +3342,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T13:18:17.153Z",
+    "lastUpdate": "2025-07-13T13:18:38.168Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 180.32105828681352,
-      "totalRequests": 694,
+      "avgResponseTime": 231.83026457170337,
+      "totalRequests": 696,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 94,
+      "memoryUsage": 97,
       "cpuUsage": 0,
       "lastGCTime": 1752412573268,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.04249104671274617,
-      "githubSyncTime": 2589,
+      "githubSyncTime": 2000,
       "dailyCaptures": 2906,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3372,11 +3372,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752412694078,
+      "lastHealthCheck": 1752412715018,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752412694078,
+      "lastHeartbeat": 1752412715019,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -3390,14 +3390,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 80,
+      "totalUploads": 81,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2358.366103986763
+      "avgUploadTime": 2179.1830519933815
     },
     "compression": true,
     "recordCount": 185,
-    "uploadTimestamp": 1752412697154,
+    "uploadTimestamp": 1752412718168,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3407,12 +3407,12 @@
     "intelligentCycle": {
       "enabled": true,
       "hibernationStatus": "active",
-      "aggregationCycles": 16,
+      "aggregationCycles": 17,
       "hibernationCycles": 5,
-      "avgBufferSize": 3.5026879310630648,
+      "avgBufferSize": 12.000549644522835,
       "forcedProcessing": 0,
       "nextWakeup": "N/A",
-      "lastCycleTime": 1752412697154
+      "lastCycleTime": 1752412718169
     }
   }
 }
