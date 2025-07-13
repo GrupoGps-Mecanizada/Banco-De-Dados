@@ -4424,22 +4424,22 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752419492694,
-    "lastUpdate": "2025-07-13T15:56:16.155Z",
+    "lastUpdate": "2025-07-13T15:57:16.165Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 253.29984791246443,
-      "totalRequests": 148,
+      "avgResponseTime": 232.14992395623221,
+      "totalRequests": 149,
       "totalErrors": 0,
       "uptime": 1752419497668,
-      "memoryUsage": 93,
+      "memoryUsage": 87,
       "cpuUsage": 0,
-      "lastGCTime": 1752421933235,
+      "lastGCTime": 1752422233259,
       "requestsPerMinute": 0,
       "dataProcessingTime": 3.2756350168495114,
-      "githubSyncTime": 1998,
+      "githubSyncTime": 2024,
       "dailyCaptures": 409,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -4456,11 +4456,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752422173176,
+      "lastHealthCheck": 1752422233177,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752422173182,
+      "lastHeartbeat": 1752422233259,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -4475,14 +4475,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 106,
+      "totalUploads": 107,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2464.9429540934507
+      "avgUploadTime": 2244.4714770467253
     },
     "compression": true,
     "recordCount": 200,
-    "uploadTimestamp": 1752422176155,
+    "uploadTimestamp": 1752422236165,
     "sessionId": 1752419497604,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -4498,7 +4498,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 0,
       "nextWakeup": "13:03:04",
-      "lastCycleTime": 1752422176155,
+      "lastCycleTime": 1752422236165,
       "fixesApplied": true
     },
     "eventReconciliation": {
