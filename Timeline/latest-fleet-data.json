@@ -2466,14 +2466,14 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752419492694,
-    "lastUpdate": "2025-07-13T15:31:05.307Z",
+    "lastUpdate": "2025-07-13T15:31:20.402Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 191.499968284953,
-      "totalRequests": 109,
+      "avgResponseTime": 202.7499841424765,
+      "totalRequests": 110,
       "totalErrors": 0,
       "uptime": 1752419497668,
       "memoryUsage": 83,
@@ -2481,7 +2481,7 @@
       "lastGCTime": 1752420398683,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.4111366392542286,
-      "githubSyncTime": 1330,
+      "githubSyncTime": 1355,
       "dailyCaptures": 320,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -2498,11 +2498,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752420660506,
+      "lastHealthCheck": 1752420680505,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752420660507,
+      "lastHeartbeat": 1752420680506,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -2517,14 +2517,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 64,
+      "totalUploads": 65,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1199.0345208286
+      "avgUploadTime": 1277.0172604143
     },
     "compression": true,
     "recordCount": 111,
-    "uploadTimestamp": 1752420665307,
+    "uploadTimestamp": 1752420680403,
     "sessionId": 1752419497604,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -2540,7 +2540,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 0,
       "nextWakeup": "12:32:01",
-      "lastCycleTime": 1752420665308,
+      "lastCycleTime": 1752420680403,
       "fixesApplied": true
     },
     "eventReconciliation": {
