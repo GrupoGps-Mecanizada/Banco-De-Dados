@@ -3288,22 +3288,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:59:16.267Z",
+    "lastUpdate": "2025-07-13T13:00:16.175Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 522.751769220112,
-      "totalRequests": 677,
+      "avgResponseTime": 358.875884610056,
+      "totalRequests": 678,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 90,
+      "memoryUsage": 86,
       "cpuUsage": 0,
       "lastGCTime": 1752411373219,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.5458989322660984,
-      "githubSyncTime": 6813,
+      "githubSyncTime": 1921,
       "dailyCaptures": 2903,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3318,11 +3318,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752411553174,
+      "lastHealthCheck": 1752411613245,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752411553176,
+      "lastHeartbeat": 1752411613245,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3336,14 +3336,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 62,
+      "totalUploads": 63,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 4812.963505996178
+      "avgUploadTime": 3366.981752998089
     },
     "compression": true,
     "recordCount": 182,
-    "uploadTimestamp": 1752411556267,
+    "uploadTimestamp": 1752411616175,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3357,8 +3357,8 @@
       "hibernationCycles": 4,
       "avgBufferSize": 19.000019073488755,
       "forcedProcessing": 0,
-      "nextWakeup": "10:08:46",
-      "lastCycleTime": 1752411556267
+      "nextWakeup": "10:09:46",
+      "lastCycleTime": 1752411616175
     }
   }
 }
