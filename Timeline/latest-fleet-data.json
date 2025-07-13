@@ -3280,43 +3280,43 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752418771481,
-    "lastUpdate": "2025-07-13T15:05:14.080Z",
+    "lastUpdate": "2025-07-13T15:05:29.065Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 133.5675680823624,
-      "totalRequests": 28,
+      "avgResponseTime": 127.7837840411812,
+      "totalRequests": 29,
       "totalErrors": 0,
       "uptime": 1752418779689,
-      "memoryUsage": 79,
+      "memoryUsage": 73,
       "cpuUsage": 0,
       "lastGCTime": 1752419080699,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.6022358669980732,
-      "githubSyncTime": 1158,
+      "githubSyncTime": 1523,
       "dailyCaptures": 205,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "manualCaptures": 5,
       "intelligentCycleStats": {
-        "totalCycles": 13,
-        "avgAggregationTime": 5.7135009765625,
-        "avgRecordsPerCycle": 0.6925048828125,
+        "totalCycles": 14,
+        "avgAggregationTime": 3.35675048828125,
+        "avgRecordsPerCycle": 0.34625244140625,
         "hibernationCycles": 4,
         "forcedProcessing": 0
       },
-      "ereReconciliationTime": 1.4180908203125
+      "ereReconciliationTime": 1.20904541015625
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752419102545,
+      "lastHealthCheck": 1752419122556,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752419110701,
+      "lastHeartbeat": 1752419122556,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -3331,14 +3331,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 18,
+      "totalUploads": 19,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1160.302375793457
+      "avgUploadTime": 1341.6511878967285
     },
     "compression": true,
     "recordCount": 148,
-    "uploadTimestamp": 1752419114080,
+    "uploadTimestamp": 1752419129065,
     "sessionId": 1752418779611,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3350,11 +3350,11 @@
       "hibernationStatus": "active",
       "aggregationCycles": 4,
       "hibernationCycles": 1,
-      "avgBufferSize": 3.0026856660842896,
+      "avgBufferSize": 2.0006714165210724,
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "N/A",
-      "lastCycleTime": 1752419114080,
+      "lastCycleTime": 1752419129065,
       "fixesApplied": true
     },
     "eventReconciliation": {
