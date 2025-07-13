@@ -6580,22 +6580,22 @@
       "version": "4.3.2-enterprise-production-ere-stable"
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T16:59:23.185Z",
+    "lastUpdate": "2025-07-13T16:59:38.171Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 125.36309564566398,
-      "totalRequests": 229,
+      "avgResponseTime": 126.18154782283199,
+      "totalRequests": 230,
       "totalErrors": 0,
       "uptime": 1752422275673,
-      "memoryUsage": 90,
+      "memoryUsage": 88,
       "cpuUsage": 0,
       "lastGCTime": 1752425876701,
       "requestsPerMinute": 0,
       "dataProcessingTime": 1.0984499661230986,
-      "githubSyncTime": 2002,
+      "githubSyncTime": 1999,
       "dailyCaptures": 285,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -6613,11 +6613,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752425959158,
+      "lastHealthCheck": 1752425979158,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752425959158,
+      "lastHeartbeat": 1752425979158,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -6633,14 +6633,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 231,
+      "totalUploads": 232,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1655.016334456103
+      "avgUploadTime": 1827.0081672280517
     },
     "compression": true,
     "recordCount": 285,
-    "uploadTimestamp": 1752425963185,
+    "uploadTimestamp": 1752425978171,
     "sessionId": 1752422275601,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -6656,7 +6656,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 1,
       "nextWakeup": "14:02:08",
-      "lastCycleTime": 1752425963185,
+      "lastCycleTime": 1752425978171,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
