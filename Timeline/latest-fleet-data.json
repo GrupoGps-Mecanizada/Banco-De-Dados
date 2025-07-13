@@ -5765,14 +5765,14 @@
     },
     "stableCaptureEnabled": true,
     "lastPersist": 1752444674067,
-    "lastUpdate": "2025-07-13T22:41:28.449Z",
+    "lastUpdate": "2025-07-13T22:41:58.417Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 156.63279225234965,
-      "totalRequests": 382,
+      "avgResponseTime": 133.31639612617482,
+      "totalRequests": 383,
       "totalErrors": 0,
       "uptime": 1752444677770,
       "memoryUsage": 56,
@@ -5780,7 +5780,7 @@
       "lastGCTime": 1752446478786,
       "requestsPerMinute": 0,
       "dataProcessingTime": 7.828116272818368,
-      "githubSyncTime": 1119,
+      "githubSyncTime": 1412,
       "dailyCaptures": 802,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -5798,11 +5798,11 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752446478783,
+      "lastHealthCheck": 1752446518782,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752446478786,
+      "lastHeartbeat": 1752446518782,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -5818,14 +5818,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 59,
+      "totalUploads": 60,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1214.488918899263
+      "avgUploadTime": 1313.2444594496314
     },
     "compression": true,
     "recordCount": 206,
-    "uploadTimestamp": 1752446488449,
+    "uploadTimestamp": 1752446518417,
     "sessionId": 1752444677769,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -5841,7 +5841,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "19:43:17",
-      "lastCycleTime": 1752446488449,
+      "lastCycleTime": 1752446518418,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
