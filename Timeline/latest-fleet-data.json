@@ -2928,14 +2928,14 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752419492694,
-    "lastUpdate": "2025-07-13T15:34:20.544Z",
+    "lastUpdate": "2025-07-13T15:34:35.429Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 259.77825927347226,
-      "totalRequests": 122,
+      "avgResponseTime": 246.38912963673613,
+      "totalRequests": 123,
       "totalErrors": 0,
       "uptime": 1752419497668,
       "memoryUsage": 86,
@@ -2943,7 +2943,7 @@
       "lastGCTime": 1752420698686,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.5429718867236272,
-      "githubSyncTime": 1157,
+      "githubSyncTime": 1176,
       "dailyCaptures": 341,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -2979,14 +2979,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 78,
+      "totalUploads": 79,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1110.062502106984
+      "avgUploadTime": 1143.031251053492
     },
     "compression": true,
     "recordCount": 132,
-    "uploadTimestamp": 1752420860544,
+    "uploadTimestamp": 1752420875429,
     "sessionId": 1752419497604,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3002,7 +3002,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 0,
       "nextWakeup": "12:42:27",
-      "lastCycleTime": 1752420860544,
+      "lastCycleTime": 1752420875430,
       "fixesApplied": true
     },
     "eventReconciliation": {
