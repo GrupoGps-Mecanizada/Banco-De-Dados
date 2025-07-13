@@ -3280,22 +3280,22 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752418771481,
-    "lastUpdate": "2025-07-13T15:04:59.065Z",
+    "lastUpdate": "2025-07-13T15:05:14.080Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 130.13513616472483,
-      "totalRequests": 27,
+      "avgResponseTime": 133.5675680823624,
+      "totalRequests": 28,
       "totalErrors": 0,
       "uptime": 1752418779689,
-      "memoryUsage": 77,
+      "memoryUsage": 79,
       "cpuUsage": 0,
       "lastGCTime": 1752419080699,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.6022358669980732,
-      "githubSyncTime": 1186,
+      "githubSyncTime": 1158,
       "dailyCaptures": 205,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3312,13 +3312,13 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752419082544,
+      "lastHealthCheck": 1752419102545,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752419082545,
+      "lastHeartbeat": 1752419110701,
       "componentStatus": {
-        "dataCapturer": "hibernating",
+        "dataCapturer": "healthy",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
@@ -3331,14 +3331,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 17,
+      "totalUploads": 18,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1162.604751586914
+      "avgUploadTime": 1160.302375793457
     },
     "compression": true,
     "recordCount": 148,
-    "uploadTimestamp": 1752419099065,
+    "uploadTimestamp": 1752419114080,
     "sessionId": 1752418779611,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3347,14 +3347,14 @@
     },
     "intelligentCycle": {
       "enabled": true,
-      "hibernationStatus": "hibernating",
+      "hibernationStatus": "active",
       "aggregationCycles": 4,
       "hibernationCycles": 1,
       "avgBufferSize": 3.0026856660842896,
       "forcedProcessing": 0,
       "manualCaptures": 2,
-      "nextWakeup": "12:05:12",
-      "lastCycleTime": 1752419099066,
+      "nextWakeup": "N/A",
+      "lastCycleTime": 1752419114080,
       "fixesApplied": true
     },
     "eventReconciliation": {
