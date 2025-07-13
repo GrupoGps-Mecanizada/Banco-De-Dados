@@ -3203,11 +3203,65 @@
       "operational_priority": 0,
       "status_category": "normal",
       "conflict_resolved": false
+    },
+    {
+      "id": "1752410872172_j2o1dbr4l",
+      "vacancy_code": "535",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 03",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-13 09:46:03",
+      "end": "2025-07-13 09:48:35",
+      "total_time": 0.042222222222222,
+      "captured_at": "2025-07-13T12:47:52.172Z",
+      "session_id": 1752346109222,
+      "production_status": "Operacional (Trânsito)",
+      "vehicle_type": "ALTA PRESSÃO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 100,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true
+    },
+    {
+      "id": "1752410872177_e6kgtz12k",
+      "vacancy_code": "530",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 01 - 24 HS",
+      "status": "off",
+      "status_title": "Motor Desligado",
+      "start": "2025-07-13 09:28:16",
+      "end": "2025-07-13 09:48:35",
+      "total_time": 0.33861111111111,
+      "captured_at": "2025-07-13T12:47:52.177Z",
+      "session_id": 1752346109222,
+      "production_status": "Improdutivo (Ocioso)",
+      "vehicle_type": "ALTA PRESSÃO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 10,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true
+    },
+    {
+      "id": "1752410872178_rx2ilrqnt",
+      "vacancy_code": "530",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 01 - 24 HS",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-13 09:27:16",
+      "end": "2025-07-13 09:28:16",
+      "total_time": 0.016666666666667,
+      "captured_at": "2025-07-13T12:47:52.178Z",
+      "session_id": 1752346109222,
+      "production_status": "Operacional (Trânsito)",
+      "vehicle_type": "ALTA PRESSÃO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 100,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true
     }
   ],
   "metadata": {
-    "totalCaptured": 178,
-    "duplicateCount": 110,
+    "totalCaptured": 181,
+    "duplicateCount": 222,
     "sessionStart": 1752346109222,
     "lastReset": null,
     "version": "4.3.0-enterprise-production",
@@ -3216,7 +3270,7 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:47:16.156Z",
+    "lastUpdate": "2025-07-13T12:47:55.165Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
@@ -3230,17 +3284,17 @@
       "cpuUsage": 0,
       "lastGCTime": 1752410773285,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 1.078216584632405,
-      "githubSyncTime": 2013,
-      "dailyCaptures": 2899,
+      "dataProcessingTime": 0.5187998563924643,
+      "githubSyncTime": 2011,
+      "dailyCaptures": 2902,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "intelligentCycleStats": {
-        "totalCycles": 12,
-        "avgAggregationTime": 0.691162109375,
-        "avgRecordsPerCycle": 0.4765625,
-        "hibernationCycles": 2,
+        "totalCycles": 13,
+        "avgAggregationTime": 17.8455810546875,
+        "avgRecordsPerCycle": 1.73828125,
+        "hibernationCycles": 3,
         "forcedProcessing": 0
       }
     },
@@ -3252,7 +3306,7 @@
       "circuitBreakerOpen": false,
       "lastHeartbeat": 1752410833253,
       "componentStatus": {
-        "dataCapturer": "healthy",
+        "dataCapturer": "hibernating",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
@@ -3264,14 +3318,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 49,
+      "totalUploads": 50,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2008.041120693947
+      "avgUploadTime": 2009.5205603469735
     },
     "compression": true,
-    "recordCount": 178,
-    "uploadTimestamp": 1752410836156,
+    "recordCount": 181,
+    "uploadTimestamp": 1752410875165,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3280,13 +3334,13 @@
     },
     "intelligentCycle": {
       "enabled": true,
-      "hibernationStatus": "active",
-      "aggregationCycles": 11,
-      "hibernationCycles": 2,
-      "avgBufferSize": 1.6679687500727596,
+      "hibernationStatus": "hibernating",
+      "aggregationCycles": 13,
+      "hibernationCycles": 3,
+      "avgBufferSize": 19.000002544373274,
       "forcedProcessing": 0,
-      "nextWakeup": "N/A",
-      "lastCycleTime": 1752410836156
+      "nextWakeup": "09:57:25",
+      "lastCycleTime": 1752410875165
     }
   }
 }
