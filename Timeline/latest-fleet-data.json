@@ -3270,14 +3270,14 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:47:55.165Z",
+    "lastUpdate": "2025-07-13T12:48:16.163Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 402.6233627892868,
-      "totalRequests": 666,
+      "avgResponseTime": 288.8116813946434,
+      "totalRequests": 667,
       "totalErrors": 0,
       "uptime": 1752408944199,
       "memoryUsage": 85,
@@ -3285,7 +3285,7 @@
       "lastGCTime": 1752410773285,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.5187998563924643,
-      "githubSyncTime": 2011,
+      "githubSyncTime": 2005,
       "dailyCaptures": 2902,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3300,11 +3300,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752410833252,
+      "lastHealthCheck": 1752410893431,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752410833253,
+      "lastHeartbeat": 1752410893436,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3318,14 +3318,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 50,
+      "totalUploads": 51,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2009.5205603469735
+      "avgUploadTime": 2007.2602801734868
     },
     "compression": true,
     "recordCount": 181,
-    "uploadTimestamp": 1752410875165,
+    "uploadTimestamp": 1752410896163,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3339,8 +3339,8 @@
       "hibernationCycles": 3,
       "avgBufferSize": 19.000002544373274,
       "forcedProcessing": 0,
-      "nextWakeup": "09:57:25",
-      "lastCycleTime": 1752410875165
+      "nextWakeup": "09:57:46",
+      "lastCycleTime": 1752410896166
     }
   }
 }
