@@ -222,22 +222,22 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752419492694,
-    "lastUpdate": "2025-07-13T15:13:52.163Z",
+    "lastUpdate": "2025-07-13T15:14:07.170Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 195.84263951069647,
-      "totalRequests": 48,
+      "avgResponseTime": 157.42131975534824,
+      "totalRequests": 49,
       "totalErrors": 0,
       "uptime": 1752419497668,
-      "memoryUsage": 73,
+      "memoryUsage": 72,
       "cpuUsage": 0,
       "lastGCTime": 1752419080699,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.006321321008985693,
-      "githubSyncTime": 2018,
+      "githubSyncTime": 1994,
       "dailyCaptures": 218,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -254,11 +254,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752419621162,
+      "lastHealthCheck": 1752419641164,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752419621162,
+      "lastHeartbeat": 1752419641165,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -273,14 +273,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 3,
+      "totalUploads": 4,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1755.875
+      "avgUploadTime": 1874.9375
     },
     "compression": true,
     "recordCount": 9,
-    "uploadTimestamp": 1752419632163,
+    "uploadTimestamp": 1752419647170,
     "sessionId": 1752419497604,
     "statusConflicts": {
       "totalConflicts": 0,
@@ -296,7 +296,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 0,
       "nextWakeup": "12:22:07",
-      "lastCycleTime": 1752419632163,
+      "lastCycleTime": 1752419647170,
       "fixesApplied": true
     },
     "eventReconciliation": {
