@@ -2466,14 +2466,14 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752419492694,
-    "lastUpdate": "2025-07-13T15:24:05.465Z",
+    "lastUpdate": "2025-07-13T15:24:20.474Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 209.55690436261273,
-      "totalRequests": 81,
+      "avgResponseTime": 246.27845218130636,
+      "totalRequests": 82,
       "totalErrors": 0,
       "uptime": 1752419497668,
       "memoryUsage": 87,
@@ -2481,7 +2481,7 @@
       "lastGCTime": 1752420098706,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.4111366392542286,
-      "githubSyncTime": 1081,
+      "githubSyncTime": 949,
       "dailyCaptures": 320,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -2498,11 +2498,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752420240515,
+      "lastHealthCheck": 1752420260504,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752420240515,
+      "lastHeartbeat": 1752420260505,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -2517,14 +2517,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 36,
+      "totalUploads": 37,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1099.3667414539814
+      "avgUploadTime": 1024.1833707269907
     },
     "compression": true,
     "recordCount": 111,
-    "uploadTimestamp": 1752420245465,
+    "uploadTimestamp": 1752420260474,
     "sessionId": 1752419497604,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -2540,7 +2540,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 0,
       "nextWakeup": "12:32:01",
-      "lastCycleTime": 1752420245465,
+      "lastCycleTime": 1752420260474,
       "fixesApplied": true
     },
     "eventReconciliation": {
