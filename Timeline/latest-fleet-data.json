@@ -3922,14 +3922,14 @@
       "events": 0
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T21:47:00.630Z",
+    "lastUpdate": "2025-07-13T21:47:30.667Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 130.71241930908934,
-      "totalRequests": 274,
+      "avgResponseTime": 141.85620965454467,
+      "totalRequests": 275,
       "totalErrors": 0,
       "uptime": 1752442256909,
       "memoryUsage": 51,
@@ -3937,7 +3937,7 @@
       "lastGCTime": 1752443166925,
       "requestsPerMinute": 0,
       "dataProcessingTime": 23.28367944381025,
-      "githubSyncTime": 1423,
+      "githubSyncTime": 1459,
       "dailyCaptures": 471,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3955,11 +3955,11 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752443217071,
+      "lastHealthCheck": 1752443246902,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752443217071,
+      "lastHeartbeat": 1752443246902,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3975,14 +3975,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 29,
+      "totalUploads": 30,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1432.62702133134
+      "avgUploadTime": 1446.31351066567
     },
     "compression": true,
     "recordCount": 186,
-    "uploadTimestamp": 1752443220630,
+    "uploadTimestamp": 1752443250667,
     "sessionId": 1752442256907,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3998,7 +3998,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "18:52:23",
-      "lastCycleTime": 1752443220631,
+      "lastCycleTime": 1752443250667,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
