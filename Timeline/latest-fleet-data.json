@@ -2028,22 +2028,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:21:38.322Z",
+    "lastUpdate": "2025-07-13T12:21:53.461Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 148.5956224123032,
-      "totalRequests": 638,
+      "avgResponseTime": 276.2978112061516,
+      "totalRequests": 639,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 78,
+      "memoryUsage": 85,
       "cpuUsage": 0,
       "lastGCTime": 1752409245673,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.5351601402515851,
-      "githubSyncTime": 1421,
+      "githubSyncTime": 1194,
       "dailyCaptures": 2833,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -2058,11 +2058,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752409286909,
+      "lastHealthCheck": 1752409306903,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752409286910,
+      "lastHeartbeat": 1752409306904,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -2076,14 +2076,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 20,
+      "totalUploads": 21,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1428.461413383484
+      "avgUploadTime": 1311.230706691742
     },
     "compression": true,
     "recordCount": 112,
-    "uploadTimestamp": 1752409298322,
+    "uploadTimestamp": 1752409313461,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -2097,8 +2097,8 @@
       "hibernationCycles": 1,
       "avgBufferSize": 19.00000262632966,
       "forcedProcessing": 0,
-      "nextWakeup": "09:31:08",
-      "lastCycleTime": 1752409298323
+      "nextWakeup": "09:31:23",
+      "lastCycleTime": 1752409313461
     }
   }
 }
