@@ -3468,22 +3468,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T13:29:08.153Z",
+    "lastUpdate": "2025-07-13T13:29:16.162Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 177.60768015886742,
-      "totalRequests": 716,
+      "avgResponseTime": 140.8038400794337,
+      "totalRequests": 717,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 88,
+      "memoryUsage": 86,
       "cpuUsage": 0,
       "lastGCTime": 1752413173164,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.04101615586857403,
-      "githubSyncTime": 2993,
+      "githubSyncTime": 2009,
       "dailyCaptures": 2913,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3498,11 +3498,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752413293194,
+      "lastHealthCheck": 1752413353166,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752413293194,
+      "lastHeartbeat": 1752413353166,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3516,14 +3516,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 103,
+      "totalUploads": 104,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2587.786933942569
+      "avgUploadTime": 2298.3934669712844
     },
     "compression": true,
     "recordCount": 192,
-    "uploadTimestamp": 1752413348153,
+    "uploadTimestamp": 1752413356162,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3537,8 +3537,8 @@
       "hibernationCycles": 7,
       "avgBufferSize": 9.008808160201738,
       "forcedProcessing": 0,
-      "nextWakeup": "10:38:38",
-      "lastCycleTime": 1752413348154
+      "nextWakeup": "10:38:46",
+      "lastCycleTime": 1752413356162
     }
   }
 }
