@@ -3270,22 +3270,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:53:16.167Z",
+    "lastUpdate": "2025-07-13T12:54:16.363Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 188.0566150435826,
-      "totalRequests": 672,
+      "avgResponseTime": 198.0283075217913,
+      "totalRequests": 673,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 91,
+      "memoryUsage": 85,
       "cpuUsage": 0,
       "lastGCTime": 1752411073300,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.5187998563924643,
-      "githubSyncTime": 1990,
+      "githubSyncTime": 1993,
       "dailyCaptures": 2902,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3300,11 +3300,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752411193251,
+      "lastHealthCheck": 1752411253217,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752411193252,
+      "lastHeartbeat": 1752411253218,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3318,14 +3318,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 56,
+      "totalUploads": 57,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2350.6643837554216
+      "avgUploadTime": 2171.832191877711
     },
     "compression": true,
     "recordCount": 181,
-    "uploadTimestamp": 1752411196167,
+    "uploadTimestamp": 1752411256363,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3339,8 +3339,8 @@
       "hibernationCycles": 3,
       "avgBufferSize": 19.000002544373274,
       "forcedProcessing": 0,
-      "nextWakeup": "10:02:46",
-      "lastCycleTime": 1752411196167
+      "nextWakeup": "10:03:46",
+      "lastCycleTime": 1752411256363
     }
   }
 }
