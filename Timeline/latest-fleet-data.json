@@ -3900,22 +3900,22 @@
       "resolved": 0
     },
     "lastPersist": 1752413690167,
-    "lastUpdate": "2025-07-13T14:46:16.161Z",
+    "lastUpdate": "2025-07-13T14:47:16.154Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 305.81040358376686,
-      "totalRequests": 801,
+      "avgResponseTime": 214.40520179188343,
+      "totalRequests": 802,
       "totalErrors": 0,
       "uptime": 1752415315425,
-      "memoryUsage": 76,
+      "memoryUsage": 74,
       "cpuUsage": 0,
-      "lastGCTime": 1752417733203,
+      "lastGCTime": 1752418033196,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.37561062870008854,
-      "githubSyncTime": 1995,
+      "githubSyncTime": 2994,
       "dailyCaptures": 2937,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3931,11 +3931,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752417973185,
+      "lastHealthCheck": 1752418033171,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752417973187,
+      "lastHeartbeat": 1752418033173,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3949,14 +3949,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 75,
+      "totalUploads": 76,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1988.8517977330296
+      "avgUploadTime": 2491.4258988665147
     },
     "compression": true,
     "recordCount": 216,
-    "uploadTimestamp": 1752417976161,
+    "uploadTimestamp": 1752418036154,
     "sessionId": 1752415315370,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3972,7 +3972,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 1,
       "nextWakeup": "11:53:42",
-      "lastCycleTime": 1752417976161,
+      "lastCycleTime": 1752418036155,
       "fixesApplied": true
     }
   }
