@@ -10557,7 +10557,7 @@
       "events": 0
     },
     "continuousCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T23:48:34.176Z",
+    "lastUpdate": "2025-07-13T23:48:38.375Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -10567,12 +10567,12 @@
       "totalRequests": 1,
       "totalErrors": 0,
       "uptime": 1752448475045,
-      "memoryUsage": 46,
+      "memoryUsage": 53,
       "cpuUsage": 0,
       "lastGCTime": 1752450276167,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.07358565926551819,
-      "githubSyncTime": 4977,
+      "githubSyncTime": 3017,
       "dailyCaptures": 336,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -10589,14 +10589,14 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752450486157,
+      "lastHealthCheck": 1752450516192,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752450486157,
+      "lastHeartbeat": 1752450516193,
       "componentStatus": {
         "dataCapturer": "degraded",
-        "githubSync": "degraded",
+        "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
         "networking": "healthy",
@@ -10604,20 +10604,20 @@
         "uiManager": "healthy",
         "statusManager": "starting",
         "securityManager": "starting",
-        "eventReconciliation": "degraded",
+        "eventReconciliation": "healthy",
         "continuousCapture": "healthy"
       }
     },
     "uploadStats": {
-      "totalUploads": 20,
+      "totalUploads": 21,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 3963.587558746338,
-      "immediateUploads": 20
+      "avgUploadTime": 3490.793779373169,
+      "immediateUploads": 21
     },
     "compression": true,
     "recordCount": 336,
-    "uploadTimestamp": 1752450514176,
+    "uploadTimestamp": 1752450518375,
     "sessionId": 1752448475045,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -10633,7 +10633,7 @@
       "immediateProcessing": true,
       "immediateUpload": true,
       "continuousCycles": 104,
-      "immediateUploads": 20,
+      "immediateUploads": 22,
       "dataIntegrityScore": 84.5,
       "lastProcessTime": 1752450513278,
       "lastCompleteProcess": 1752450513278
@@ -10666,7 +10666,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752450514176
+      "timestamp": 1752450518375
     }
   }
 }
