@@ -5631,11 +5631,27 @@
       "operational_priority": 100,
       "status_category": "priority_resolution",
       "conflict_resolved": true
+    },
+    {
+      "id": "1752365525865_1bcp1akdl",
+      "vacancy_code": "535",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 03",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-12 21:10:03",
+      "end": "2025-07-12 21:12:53",
+      "total_time": 0.047222222222222,
+      "captured_at": "2025-07-13T00:12:05.865Z",
+      "session_id": 1752346109222,
+      "operational_status": "ACTIVE",
+      "operational_priority": 100,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true
     }
   ],
   "metadata": {
-    "totalCaptured": 352,
-    "duplicateCount": 2394,
+    "totalCaptured": 353,
+    "duplicateCount": 2409,
     "sessionStart": 1752346109222,
     "lastReset": null,
     "version": "4.3.0-enterprise-production",
@@ -5644,34 +5660,34 @@
       "resolved": 0
     },
     "lastPersist": 1752360403061,
-    "lastUpdate": "2025-07-13T00:11:56.026Z",
+    "lastUpdate": "2025-07-13T00:12:10.960Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 143.1209250751947,
-      "totalRequests": 169,
+      "avgResponseTime": 133.06046253759735,
+      "totalRequests": 170,
       "totalErrors": 0,
       "uptime": 1752360409032,
-      "memoryUsage": 84,
+      "memoryUsage": 77,
       "cpuUsage": 0,
       "lastGCTime": 1752365510085,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 4.385558756426982e-11,
-      "githubSyncTime": 1215,
-      "dailyCaptures": 2445,
+      "dataProcessingTime": 0.1252446174621582,
+      "githubSyncTime": 1083,
+      "dailyCaptures": 2446,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752365511975,
+      "lastHealthCheck": 1752365530072,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752365511975,
+      "lastHeartbeat": 1752365530073,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -5685,14 +5701,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 116,
+      "totalUploads": 117,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1236.2645218045209
+      "avgUploadTime": 1159.6322609022604
     },
     "compression": true,
-    "recordCount": 352,
-    "uploadTimestamp": 1752365516026,
+    "recordCount": 353,
+    "uploadTimestamp": 1752365530960,
     "sessionId": 1752360408897,
     "statusConflicts": {
       "totalConflicts": 50,
