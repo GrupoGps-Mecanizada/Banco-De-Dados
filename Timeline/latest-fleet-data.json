@@ -3882,14 +3882,14 @@
       "resolved": 0
     },
     "lastPersist": 1752413690167,
-    "lastUpdate": "2025-07-13T14:34:23.316Z",
+    "lastUpdate": "2025-07-13T14:34:53.217Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 244.30463287355172,
-      "totalRequests": 786,
+      "avgResponseTime": 182.65231643677586,
+      "totalRequests": 787,
       "totalErrors": 0,
       "uptime": 1752415315425,
       "memoryUsage": 79,
@@ -3897,7 +3897,7 @@
       "lastGCTime": 1752417133180,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.6495971847337112,
-      "githubSyncTime": 3809,
+      "githubSyncTime": 1194,
       "dailyCaptures": 2936,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3913,15 +3913,15 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752417260985,
+      "lastHealthCheck": 1752417278093,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752417260985,
+      "lastHeartbeat": 1752417278095,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
-        "dateAutomation": "degraded",
+        "dateAutomation": "healthy",
         "memoryManager": "healthy",
         "networking": "healthy",
         "backupManager": "healthy",
@@ -3931,14 +3931,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 60,
+      "totalUploads": 61,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 3163.7081159147765
+      "avgUploadTime": 2178.8540579573882
     },
     "compression": true,
     "recordCount": 215,
-    "uploadTimestamp": 1752417263316,
+    "uploadTimestamp": 1752417293217,
     "sessionId": 1752415315370,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3954,7 +3954,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 1,
       "nextWakeup": "11:43:30",
-      "lastCycleTime": 1752417263316,
+      "lastCycleTime": 1752417293217,
       "fixesApplied": true
     }
   }
