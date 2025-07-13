@@ -3922,14 +3922,14 @@
       "events": 0
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T21:46:30.633Z",
+    "lastUpdate": "2025-07-13T21:47:00.630Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 138.4248386181787,
-      "totalRequests": 273,
+      "avgResponseTime": 130.71241930908934,
+      "totalRequests": 274,
       "totalErrors": 0,
       "uptime": 1752442256909,
       "memoryUsage": 51,
@@ -3937,7 +3937,7 @@
       "lastGCTime": 1752443166925,
       "requestsPerMinute": 0,
       "dataProcessingTime": 23.28367944381025,
-      "githubSyncTime": 1487,
+      "githubSyncTime": 1423,
       "dailyCaptures": 471,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3955,11 +3955,11 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752443186902,
+      "lastHealthCheck": 1752443217071,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752443186903,
+      "lastHeartbeat": 1752443217071,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3975,14 +3975,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 28,
+      "totalUploads": 29,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1442.2540426626801
+      "avgUploadTime": 1432.62702133134
     },
     "compression": true,
     "recordCount": 186,
-    "uploadTimestamp": 1752443190633,
+    "uploadTimestamp": 1752443220630,
     "sessionId": 1752442256907,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3998,7 +3998,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "18:52:23",
-      "lastCycleTime": 1752443190633,
+      "lastCycleTime": 1752443220631,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
