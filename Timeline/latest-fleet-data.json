@@ -6488,14 +6488,14 @@
       "version": "4.3.2-enterprise-production-ere-stable"
     },
     "stableCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T16:50:07.235Z",
+    "lastUpdate": "2025-07-13T16:50:22.233Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 122.29805590849539,
-      "totalRequests": 192,
+      "avgResponseTime": 120.14902795424769,
+      "totalRequests": 193,
       "totalErrors": 0,
       "uptime": 1752422275673,
       "memoryUsage": 82,
@@ -6503,7 +6503,7 @@
       "lastGCTime": 1752425290875,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.34683990711347445,
-      "githubSyncTime": 1402,
+      "githubSyncTime": 1379,
       "dailyCaptures": 281,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -6521,11 +6521,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752425398427,
+      "lastHealthCheck": 1752425418428,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752425398427,
+      "lastHeartbeat": 1752425418428,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -6541,14 +6541,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 193,
+      "totalUploads": 194,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1356.6730130089422
+      "avgUploadTime": 1368.3365065044711
     },
     "compression": true,
     "recordCount": 281,
-    "uploadTimestamp": 1752425407235,
+    "uploadTimestamp": 1752425422233,
     "sessionId": 1752422275601,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -6564,7 +6564,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 1,
       "nextWakeup": "13:51:53",
-      "lastCycleTime": 1752425407235,
+      "lastCycleTime": 1752425422233,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
