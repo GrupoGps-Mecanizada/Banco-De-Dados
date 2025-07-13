@@ -5765,14 +5765,14 @@
     },
     "stableCaptureEnabled": true,
     "lastPersist": 1752444674067,
-    "lastUpdate": "2025-07-13T22:38:58.453Z",
+    "lastUpdate": "2025-07-13T22:39:28.509Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 129.24935207518809,
-      "totalRequests": 377,
+      "avgResponseTime": 147.12467603759404,
+      "totalRequests": 378,
       "totalErrors": 0,
       "uptime": 1752444677770,
       "memoryUsage": 56,
@@ -5780,7 +5780,7 @@
       "lastGCTime": 1752446178783,
       "requestsPerMinute": 0,
       "dataProcessingTime": 7.828116272818368,
-      "githubSyncTime": 1032,
+      "githubSyncTime": 2522,
       "dailyCaptures": 802,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -5798,11 +5798,11 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752446338778,
+      "lastHealthCheck": 1752446358776,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752446338779,
+      "lastHeartbeat": 1752446358777,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -5818,14 +5818,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 54,
+      "totalUploads": 55,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1179.64540477641
+      "avgUploadTime": 1850.822702388205
     },
     "compression": true,
     "recordCount": 206,
-    "uploadTimestamp": 1752446338453,
+    "uploadTimestamp": 1752446368509,
     "sessionId": 1752444677769,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -5841,7 +5841,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "19:43:17",
-      "lastCycleTime": 1752446338454,
+      "lastCycleTime": 1752446368509,
       "fixesApplied": true,
       "stableCaptureMode": true,
       "uiStabilityWaits": 0,
