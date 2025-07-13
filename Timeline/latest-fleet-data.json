@@ -7692,60 +7692,60 @@
       "resolved": 0
     },
     "lastPersist": 1752360403061,
-    "lastUpdate": "2025-07-13T03:21:16.161Z",
+    "lastUpdate": "2025-07-13T11:53:19.356Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 284.70850142721787,
-      "totalRequests": 602,
+      "avgResponseTime": 3585.4271253568045,
+      "totalRequests": 604,
       "totalErrors": 0,
       "uptime": 1752360409032,
-      "memoryUsage": 102,
+      "memoryUsage": 99,
       "cpuUsage": 0,
-      "lastGCTime": 1752376633235,
+      "lastGCTime": 1752376933248,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.000007752393003102043,
-      "githubSyncTime": 1994,
+      "dataProcessingTime": 5.960467365530507e-8,
+      "githubSyncTime": 2002,
       "dailyCaptures": 2573,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100
     },
     "health": {
-      "status": "healthy",
-      "lastHealthCheck": 1752376873175,
+      "status": "warning",
+      "lastHealthCheck": 1752407599739,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752376873175,
+      "lastHeartbeat": 1752407599739,
       "componentStatus": {
         "dataCapturer": "healthy",
-        "githubSync": "healthy",
+        "githubSync": "degraded",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
         "networking": "healthy",
-        "backupManager": "healthy",
+        "backupManager": "degraded",
         "uiManager": "healthy",
         "statusManager": "starting",
         "securityManager": "starting"
       }
     },
     "uploadStats": {
-      "totalUploads": 548,
+      "totalUploads": 549,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2046.571831983124
+      "avgUploadTime": 2024.285915991562
     },
     "compression": true,
     "recordCount": 480,
-    "uploadTimestamp": 1752376876161,
+    "uploadTimestamp": 1752407599356,
     "sessionId": 1752360408897,
     "statusConflicts": {
       "totalConflicts": 50,
-      "recentConflicts": 50,
-      "conflictRate": 0.8333333333333334
+      "recentConflicts": 0,
+      "conflictRate": 0
     }
   }
 }
