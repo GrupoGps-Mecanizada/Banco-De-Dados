@@ -3216,22 +3216,22 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:35:16.204Z",
+    "lastUpdate": "2025-07-13T12:36:16.155Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 493.2939849185549,
-      "totalRequests": 654,
+      "avgResponseTime": 324.64699245927744,
+      "totalRequests": 655,
       "totalErrors": 0,
       "uptime": 1752408944199,
-      "memoryUsage": 83,
+      "memoryUsage": 86,
       "cpuUsage": 0,
-      "lastGCTime": 1752409933202,
+      "lastGCTime": 1752410173231,
       "requestsPerMinute": 0,
       "dataProcessingTime": 1.078216584632405,
-      "githubSyncTime": 2014,
+      "githubSyncTime": 1976,
       "dailyCaptures": 2899,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3246,11 +3246,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752410113405,
+      "lastHealthCheck": 1752410173223,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752410113406,
+      "lastHeartbeat": 1752410173225,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3264,14 +3264,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 37,
+      "totalUploads": 38,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2294.4303624070235
+      "avgUploadTime": 2135.2151812035117
     },
     "compression": true,
     "recordCount": 178,
-    "uploadTimestamp": 1752410116204,
+    "uploadTimestamp": 1752410176155,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3285,8 +3285,8 @@
       "hibernationCycles": 2,
       "avgBufferSize": 23.000001192093052,
       "forcedProcessing": 0,
-      "nextWakeup": "09:44:46",
-      "lastCycleTime": 1752410116205
+      "nextWakeup": "09:45:46",
+      "lastCycleTime": 1752410176155
     }
   }
 }
