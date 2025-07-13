@@ -3257,11 +3257,29 @@
       "operational_priority": 100,
       "status_category": "priority_resolution",
       "conflict_resolved": true
+    },
+    {
+      "id": "1752411489172_80wbbvmf4",
+      "vacancy_code": "535",
+      "vacancy_name": "CAMINHÃO ALTA PRESSÃO - GPS - 03",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-13 09:55:03",
+      "end": "2025-07-13 09:58:49",
+      "total_time": 0.062777777777778,
+      "captured_at": "2025-07-13T12:58:09.172Z",
+      "session_id": 1752346109222,
+      "production_status": "Operacional (Trânsito)",
+      "vehicle_type": "ALTA PRESSÃO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 100,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true
     }
   ],
   "metadata": {
-    "totalCaptured": 181,
-    "duplicateCount": 222,
+    "totalCaptured": 182,
+    "duplicateCount": 336,
     "sessionStart": 1752346109222,
     "lastReset": null,
     "version": "4.3.0-enterprise-production",
@@ -3270,7 +3288,7 @@
       "resolved": 0
     },
     "lastPersist": 1752408939816,
-    "lastUpdate": "2025-07-13T12:57:17.159Z",
+    "lastUpdate": "2025-07-13T12:58:12.341Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
@@ -3284,17 +3302,17 @@
       "cpuUsage": 0,
       "lastGCTime": 1752411373219,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.5187998563924643,
-      "githubSyncTime": 3001,
-      "dailyCaptures": 2902,
+      "dataProcessingTime": 0.5458989322660984,
+      "githubSyncTime": 3009,
+      "dailyCaptures": 2903,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "intelligentCycleStats": {
-        "totalCycles": 13,
-        "avgAggregationTime": 17.8455810546875,
-        "avgRecordsPerCycle": 1.73828125,
-        "hibernationCycles": 3,
+        "totalCycles": 14,
+        "avgAggregationTime": 26.92279052734375,
+        "avgRecordsPerCycle": 1.369140625,
+        "hibernationCycles": 4,
         "forcedProcessing": 0
       }
     },
@@ -3318,14 +3336,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 60,
+      "totalUploads": 61,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2616.854023984714
+      "avgUploadTime": 2812.9270119923567
     },
     "compression": true,
-    "recordCount": 181,
-    "uploadTimestamp": 1752411437159,
+    "recordCount": 182,
+    "uploadTimestamp": 1752411492341,
     "sessionId": 1752408944131,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3335,12 +3353,12 @@
     "intelligentCycle": {
       "enabled": true,
       "hibernationStatus": "hibernating",
-      "aggregationCycles": 13,
-      "hibernationCycles": 3,
-      "avgBufferSize": 19.000002544373274,
+      "aggregationCycles": 14,
+      "hibernationCycles": 4,
+      "avgBufferSize": 19.000019073488755,
       "forcedProcessing": 0,
-      "nextWakeup": "10:06:47",
-      "lastCycleTime": 1752411437160
+      "nextWakeup": "10:07:42",
+      "lastCycleTime": 1752411492342
     }
   }
 }
