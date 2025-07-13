@@ -3280,22 +3280,22 @@
       "version": "4.3.1-enterprise-production-ere"
     },
     "lastPersist": 1752418771481,
-    "lastUpdate": "2025-07-13T15:01:59.552Z",
+    "lastUpdate": "2025-07-13T15:02:14.091Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 138.51773071289062,
-      "totalRequests": 15,
+      "avgResponseTime": 150.7588653564453,
+      "totalRequests": 16,
       "totalErrors": 0,
       "uptime": 1752418779689,
-      "memoryUsage": 76,
+      "memoryUsage": 73,
       "cpuUsage": 0,
       "lastGCTime": 1752418755177,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.6022358669980732,
-      "githubSyncTime": 1243,
+      "githubSyncTime": 1818,
       "dailyCaptures": 205,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -3312,11 +3312,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752418902549,
+      "lastHealthCheck": 1752418922543,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752418902551,
+      "lastHeartbeat": 1752418930699,
       "componentStatus": {
         "dataCapturer": "hibernating",
         "githubSync": "healthy",
@@ -3331,14 +3331,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 5,
+      "totalUploads": 6,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1352.0625
+      "avgUploadTime": 1585.53125
     },
     "compression": true,
     "recordCount": 148,
-    "uploadTimestamp": 1752418919553,
+    "uploadTimestamp": 1752418934092,
     "sessionId": 1752418779611,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3354,7 +3354,7 @@
       "forcedProcessing": 0,
       "manualCaptures": 2,
       "nextWakeup": "12:05:12",
-      "lastCycleTime": 1752418919554,
+      "lastCycleTime": 1752418934092,
       "fixesApplied": true
     },
     "eventReconciliation": {
