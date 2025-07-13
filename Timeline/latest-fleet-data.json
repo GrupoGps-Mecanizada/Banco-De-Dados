@@ -9971,7 +9971,7 @@
   ],
   "metadata": {
     "totalCaptured": 623,
-    "duplicateCount": 8913,
+    "duplicateCount": 8915,
     "sessionStart": 1752346109222,
     "lastReset": null,
     "version": "4.3.0-enterprise-production",
@@ -9980,22 +9980,22 @@
       "resolved": 0
     },
     "lastPersist": 1752360403061,
-    "lastUpdate": "2025-07-13T12:04:16.181Z",
+    "lastUpdate": "2025-07-13T12:05:16.188Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 1047.606781339201,
-      "totalRequests": 606,
+      "avgResponseTime": 602.8033906696005,
+      "totalRequests": 607,
       "totalErrors": 0,
       "uptime": 1752360409032,
-      "memoryUsage": 105,
+      "memoryUsage": 102,
       "cpuUsage": 0,
       "lastGCTime": 1752408193240,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 0.9756853580474856,
-      "githubSyncTime": 3003,
+      "dataProcessingTime": 0.24848033487796783,
+      "githubSyncTime": 2032,
       "dailyCaptures": 2716,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -10003,11 +10003,11 @@
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752408253256,
+      "lastHealthCheck": 1752408313256,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752408253256,
+      "lastHeartbeat": 1752408313256,
       "componentStatus": {
         "dataCapturer": "healthy",
         "githubSync": "healthy",
@@ -10021,14 +10021,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 552,
+      "totalUploads": 553,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 89593.66073949894
+      "avgUploadTime": 45812.83036974947
     },
     "compression": true,
     "recordCount": 623,
-    "uploadTimestamp": 1752408256181,
+    "uploadTimestamp": 1752408316188,
     "sessionId": 1752360408897,
     "statusConflicts": {
       "totalConflicts": 50,
