@@ -3756,14 +3756,14 @@
       "resolved": 0
     },
     "lastPersist": 1752413690167,
-    "lastUpdate": "2025-07-13T14:22:23.484Z",
+    "lastUpdate": "2025-07-13T14:22:53.213Z",
     "source": "gaussfleet-enterprise",
     "environment": "production",
     "metrics": {
       "captureRate": 0,
       "errorRate": 0,
-      "avgResponseTime": 249.36000867866125,
-      "totalRequests": 767,
+      "avgResponseTime": 181.68000433933062,
+      "totalRequests": 768,
       "totalErrors": 0,
       "uptime": 1752415315425,
       "memoryUsage": 78,
@@ -3771,29 +3771,29 @@
       "lastGCTime": 1752416516437,
       "requestsPerMinute": 0,
       "dataProcessingTime": 0.15872237202757344,
-      "githubSyncTime": 1061,
+      "githubSyncTime": 1140,
       "dailyCaptures": 2929,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "manualCaptures": 1,
       "intelligentCycleStats": {
-        "totalCycles": 30,
-        "avgAggregationTime": 18.368590130470693,
-        "avgRecordsPerCycle": 6.066518694162369,
+        "totalCycles": 31,
+        "avgAggregationTime": 9.684295065235347,
+        "avgRecordsPerCycle": 3.0332593470811844,
         "hibernationCycles": 9,
         "forcedProcessing": 0
       }
     },
     "health": {
       "status": "healthy",
-      "lastHealthCheck": 1752416538057,
+      "lastHealthCheck": 1752416558060,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752416538057,
+      "lastHeartbeat": 1752416558060,
       "componentStatus": {
-        "dataCapturer": "hibernating",
+        "dataCapturer": "healthy",
         "githubSync": "healthy",
         "dateAutomation": "healthy",
         "memoryManager": "healthy",
@@ -3805,14 +3805,14 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 39,
+      "totalUploads": 40,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1132.7069054220974
+      "avgUploadTime": 1136.3534527110487
     },
     "compression": true,
     "recordCount": 208,
-    "uploadTimestamp": 1752416543484,
+    "uploadTimestamp": 1752416573214,
     "sessionId": 1752415315370,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -3821,14 +3821,14 @@
     },
     "intelligentCycle": {
       "enabled": true,
-      "hibernationStatus": "hibernating",
+      "hibernationStatus": "active",
       "aggregationCycles": 9,
       "hibernationCycles": 2,
-      "avgBufferSize": 14.000274846330296,
+      "avgBufferSize": 4.750068711582574,
       "forcedProcessing": 0,
       "manualCaptures": 1,
-      "nextWakeup": "11:22:38",
-      "lastCycleTime": 1752416543484,
+      "nextWakeup": "N/A",
+      "lastCycleTime": 1752416573214,
       "fixesApplied": true
     }
   }
