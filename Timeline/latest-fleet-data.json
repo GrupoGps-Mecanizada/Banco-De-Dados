@@ -14395,11 +14395,43 @@
       "event_duration_minutes": 0,
       "event_first_seen": "2025-07-14T10:13:43.458Z",
       "event_update_count": 1
+    },
+    {
+      "id": "1752488026071_0z0yhhlh3",
+      "vacancy_code": "372",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 10",
+      "status": "not_appropriated",
+      "status_title": "Indisponível / Sem Apropriação",
+      "start": "2025-07-14 00:00",
+      "end": "2025-07-14 07:14:38",
+      "total_time": 7.2438888888889,
+      "captured_at": "2025-07-14T10:13:46.071Z",
+      "session_id": 1752448475045,
+      "continuous_capture_mode": true,
+      "production_status": "Não Computável",
+      "vehicle_type": "AUTO VÁCUO",
+      "operational_status": "UNKNOWN",
+      "operational_priority": 0,
+      "status_category": "normal",
+      "conflict_resolved": false,
+      "event_state": "NOVO",
+      "event_sequence": "CONTINUE",
+      "is_continuation": true,
+      "transition_metadata": {
+        "previous_status": "not_appropriated",
+        "transition_type": "ONGOING",
+        "time_gap_minutes": 1440,
+        "sequence_number": 2,
+        "analysis_timestamp": "2025-07-14T10:13:46.071Z"
+      },
+      "event_duration_minutes": 0,
+      "event_first_seen": "2025-07-14T10:13:46.072Z",
+      "event_update_count": 1
     }
   ],
   "metadata": {
-    "totalCaptured": 458,
-    "duplicateCount": 1172,
+    "totalCaptured": 459,
+    "duplicateCount": 1174,
     "sessionStart": 1752448475045,
     "lastReset": null,
     "version": "4.3.5-enterprise-production-complete-fixed",
@@ -14412,7 +14444,7 @@
       "events": 0
     },
     "continuousCaptureEnabled": true,
-    "lastUpdate": "2025-07-14T10:13:44.171Z",
+    "lastUpdate": "2025-07-14T10:13:47.174Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -14427,7 +14459,7 @@
       "lastGCTime": 1752487513227,
       "requestsPerMinute": 0,
       "dataProcessingTime": 1.3936335312467965,
-      "githubSyncTime": 2997,
+      "githubSyncTime": 3989,
       "dailyCaptures": 459,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -14464,15 +14496,15 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 48,
+      "totalUploads": 49,
       "totalFailures": 3,
       "totalRetries": 0,
-      "avgUploadTime": 3893.5574739336503,
-      "immediateUploads": 48
+      "avgUploadTime": 3941.278736966825,
+      "immediateUploads": 49
     },
     "compression": true,
-    "recordCount": 458,
-    "uploadTimestamp": 1752488024171,
+    "recordCount": 459,
+    "uploadTimestamp": 1752488027174,
     "sessionId": 1752448475045,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -14487,25 +14519,25 @@
       "noHibernation": true,
       "immediateProcessing": true,
       "immediateUpload": true,
-      "continuousCycles": 553,
-      "immediateUploads": 50,
+      "continuousCycles": 554,
+      "immediateUploads": 51,
       "dataIntegrityScore": 78.43,
-      "lastProcessTime": 1752488023469,
-      "lastCompleteProcess": 1752488023469
+      "lastProcessTime": 1752488026078,
+      "lastCompleteProcess": 1752488026078
     },
     "eventReconciliation": {
       "enabled": true,
       "immediateMode": true,
-      "activeEvents": 2,
-      "totalEvents": 1630,
-      "newEvents": 816,
+      "activeEvents": 1,
+      "totalEvents": 1633,
+      "newEvents": 817,
       "ongoingEvents": 0,
-      "finalizedEvents": 814,
+      "finalizedEvents": 816,
       "timeoutEvents": 0,
-      "lastReconciliation": "2025-07-14T10:13:43.458Z",
-      "avgReconciliationTime": 0.540888751452729,
-      "eventsValidated": 2,
-      "avgEventsPerMinute": 180813521.7,
+      "lastReconciliation": "2025-07-14T10:13:46.072Z",
+      "avgReconciliationTime": 0.2704443757263645,
+      "eventsValidated": 1,
+      "avgEventsPerMinute": 362292614.65,
       "configuration": {
         "maxActiveEvents": 10000,
         "eventTimeoutHours": 48,
@@ -14521,7 +14553,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752488024172
+      "timestamp": 1752488027175
     }
   }
 }
