@@ -6756,11 +6756,34 @@
       "event_duration_minutes": 0,
       "event_first_seen": "2025-07-14T13:33:16.239Z",
       "event_update_count": 1
+    },
+    {
+      "id": "1752499998137_5tg8ou8vn",
+      "vacancy_code": "372",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 10",
+      "status": "not_appropriated",
+      "status_title": "Indisponível / Sem Apropriação",
+      "start": "2025-07-14 00:00",
+      "end": "2025-07-14 10:34:10",
+      "total_time": 10.569444444444,
+      "captured_at": "2025-07-14T13:33:18.137Z",
+      "session_id": 1752499921466,
+      "continuous_capture_mode": true,
+      "production_status": "Não Computável",
+      "vehicle_type": "AUTO VÁCUO",
+      "operational_status": "UNKNOWN",
+      "operational_priority": 0,
+      "status_category": "normal",
+      "conflict_resolved": false,
+      "event_state": "NOVO",
+      "event_duration_minutes": 0,
+      "event_first_seen": "2025-07-14T13:33:18.137Z",
+      "event_update_count": 1
     }
   ],
   "metadata": {
-    "totalCaptured": 216,
-    "duplicateCount": 191,
+    "totalCaptured": 217,
+    "duplicateCount": 216,
     "sessionStart": 1752499921466,
     "lastReset": null,
     "version": "4.3.5-enterprise-production-complete-fixed",
@@ -6774,7 +6797,7 @@
     },
     "continuousCaptureEnabled": true,
     "lastPersist": 1752499924591,
-    "lastUpdate": "2025-07-14T13:33:16.566Z",
+    "lastUpdate": "2025-07-14T13:33:18.363Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -6788,18 +6811,18 @@
       "cpuUsage": 0,
       "lastGCTime": 1752497113195,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 4.26626717570209,
-      "githubSyncTime": 1131,
-      "dailyCaptures": 986,
+      "dataProcessingTime": 2.133133587851045,
+      "githubSyncTime": 1638,
+      "dailyCaptures": 987,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "manualCaptures": 1,
       "continuousCaptureStats": {
-        "totalCycles": 231,
-        "avgProcessingTime": 17.333853338739516,
-        "avgRecordsPerCycle": 19.52127449819818,
-        "immediateUploads": 12,
+        "totalCycles": 232,
+        "avgProcessingTime": 12.666926669369758,
+        "avgRecordsPerCycle": 10.26063724909909,
+        "immediateUploads": 13,
         "dataIntegrityScore": 100
       },
       "ereReconciliationTime": 0
@@ -6826,15 +6849,15 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 12,
+      "totalUploads": 13,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1423.725341796875,
-      "immediateUploads": 12
+      "avgUploadTime": 1530.8626708984375,
+      "immediateUploads": 13
     },
     "compression": true,
-    "recordCount": 216,
-    "uploadTimestamp": 1752499996566,
+    "recordCount": 217,
+    "uploadTimestamp": 1752499998363,
     "sessionId": 1752499928224,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -6849,25 +6872,25 @@
       "noHibernation": true,
       "immediateProcessing": true,
       "immediateUpload": true,
-      "continuousCycles": 137,
-      "immediateUploads": 12,
-      "dataIntegrityScore": 85.92,
-      "lastProcessTime": 1752499996248,
-      "lastCompleteProcess": 1752499996248
+      "continuousCycles": 138,
+      "immediateUploads": 13,
+      "dataIntegrityScore": 85.03,
+      "lastProcessTime": 1752499998145,
+      "lastCompleteProcess": 1752499998145
     },
     "eventReconciliation": {
       "enabled": true,
       "immediateMode": true,
-      "activeEvents": 25,
-      "totalEvents": 407,
-      "newEvents": 216,
+      "activeEvents": 1,
+      "totalEvents": 433,
+      "newEvents": 217,
       "ongoingEvents": 0,
-      "finalizedEvents": 191,
+      "finalizedEvents": 216,
       "timeoutEvents": 0,
-      "lastReconciliation": "2025-07-14T13:33:16.240Z",
-      "avgReconciliationTime": 1.4200439453125,
-      "eventsValidated": 25,
-      "avgEventsPerMinute": 17196650.91,
+      "lastReconciliation": "2025-07-14T13:33:18.138Z",
+      "avgReconciliationTime": 1.21002197265625,
+      "eventsValidated": 1,
+      "avgEventsPerMinute": 21470684.49,
       "configuration": {
         "maxActiveEvents": 10000,
         "eventTimeoutHours": 48,
@@ -6883,7 +6906,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752499996566
+      "timestamp": 1752499998363
     }
   }
 }
