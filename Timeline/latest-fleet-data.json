@@ -13955,11 +13955,74 @@
       "event_duration_minutes": 0,
       "event_first_seen": "2025-07-14T09:42:22.265Z",
       "event_update_count": 1
+    },
+    {
+      "id": "1752486157010_2p2wrdx0a",
+      "vacancy_code": "573",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 08 - 24 HS",
+      "status": "maintenance",
+      "status_title": "Em manutenção",
+      "start": "2025-07-14 06:14:57",
+      "end": "2025-07-14 06:16:50",
+      "total_time": 0.031388888888889,
+      "captured_at": "2025-07-14T09:42:37.010Z",
+      "session_id": 1752448475045,
+      "continuous_capture_mode": true,
+      "production_status": "Improdutivo (Ocioso)",
+      "vehicle_type": "AUTO VÁCUO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 60,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true,
+      "event_state": "NOVO",
+      "event_sequence": "UNDEFINED",
+      "transition_metadata": {
+        "previous_status": "not_appropriated",
+        "transition_type": "UNKNOWN_TRANSITION",
+        "time_gap_minutes": -2.2,
+        "sequence_number": 50,
+        "analysis_timestamp": "2025-07-14T09:42:37.011Z"
+      },
+      "event_duration_minutes": 0,
+      "event_first_seen": "2025-07-14T09:42:37.013Z",
+      "event_update_count": 1
+    },
+    {
+      "id": "1752486157012_hy87hx8kk",
+      "vacancy_code": "573",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 08 - 24 HS",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-14 06:16:50",
+      "end": "2025-07-14 06:17:09",
+      "total_time": 0.0052777777777778,
+      "captured_at": "2025-07-14T09:42:37.012Z",
+      "session_id": 1752448475045,
+      "continuous_capture_mode": true,
+      "production_status": "Operacional (Trânsito)",
+      "vehicle_type": "AUTO VÁCUO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 100,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true,
+      "event_state": "NOVO",
+      "event_sequence": "CONTINUE",
+      "is_continuation": true,
+      "transition_metadata": {
+        "previous_status": "on",
+        "transition_type": "ONGOING",
+        "time_gap_minutes": 220.55,
+        "sequence_number": 50,
+        "analysis_timestamp": "2025-07-14T09:42:37.012Z"
+      },
+      "event_duration_minutes": 0,
+      "event_first_seen": "2025-07-14T09:42:37.013Z",
+      "event_update_count": 1
     }
   ],
   "metadata": {
-    "totalCaptured": 444,
-    "duplicateCount": 794,
+    "totalCaptured": 446,
+    "duplicateCount": 812,
     "sessionStart": 1752448475045,
     "lastReset": null,
     "version": "4.3.5-enterprise-production-complete-fixed",
@@ -13972,7 +14035,7 @@
       "events": 0
     },
     "continuousCaptureEnabled": true,
-    "lastUpdate": "2025-07-14T09:42:23.179Z",
+    "lastUpdate": "2025-07-14T09:42:38.176Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -13986,18 +14049,18 @@
       "cpuUsage": 0,
       "lastGCTime": 1752485713214,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 2.583551895027408,
-      "githubSyncTime": 2969,
-      "dailyCaptures": 444,
+      "dataProcessingTime": 2.2917759475137043,
+      "githubSyncTime": 3001,
+      "dailyCaptures": 446,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "manualCaptures": 1,
       "continuousCaptureStats": {
-        "totalCycles": 109,
-        "avgProcessingTime": 14.030676960103415,
-        "avgRecordsPerCycle": 1.1677323589401594,
-        "immediateUploads": 42,
+        "totalCycles": 110,
+        "avgProcessingTime": 14.515338480051707,
+        "avgRecordsPerCycle": 1.5838661794700797,
+        "immediateUploads": 43,
         "dataIntegrityScore": 100
       },
       "ereReconciliationTime": 0
@@ -14024,21 +14087,21 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 40,
+      "totalUploads": 41,
       "totalFailures": 3,
       "totalRetries": 0,
-      "avgUploadTime": 82389.7133270145,
-      "immediateUploads": 40
+      "avgUploadTime": 42695.35666350725,
+      "immediateUploads": 41
     },
     "compression": true,
-    "recordCount": 444,
-    "uploadTimestamp": 1752486143179,
+    "recordCount": 446,
+    "uploadTimestamp": 1752486158176,
     "sessionId": 1752448475045,
     "statusConflicts": {
       "totalConflicts": 50,
       "recentConflicts": 50,
       "conflictRate": 0.83,
-      "avgPriorityDiff": 57.8,
+      "avgPriorityDiff": 56.2,
       "mostConflictedVacancy": "530",
       "uniqueVacanciesWithConflicts": 3
     },
@@ -14047,25 +14110,25 @@
       "noHibernation": true,
       "immediateProcessing": true,
       "immediateUpload": true,
-      "continuousCycles": 539,
-      "immediateUploads": 42,
-      "dataIntegrityScore": 80.76,
-      "lastProcessTime": 1752486142278,
-      "lastCompleteProcess": 1752486142278
+      "continuousCycles": 540,
+      "immediateUploads": 43,
+      "dataIntegrityScore": 80.64,
+      "lastProcessTime": 1752486157024,
+      "lastCompleteProcess": 1752486157024
     },
     "eventReconciliation": {
       "enabled": true,
       "immediateMode": true,
-      "activeEvents": 12,
-      "totalEvents": 1238,
-      "newEvents": 625,
+      "activeEvents": 8,
+      "totalEvents": 1258,
+      "newEvents": 633,
       "ongoingEvents": 0,
-      "finalizedEvents": 613,
+      "finalizedEvents": 625,
       "timeoutEvents": 0,
-      "lastReconciliation": "2025-07-14T09:42:22.266Z",
-      "avgReconciliationTime": 0.9213038015114325,
-      "eventsValidated": 12,
-      "avgEventsPerMinute": 80624870.84,
+      "lastReconciliation": "2025-07-14T09:42:37.013Z",
+      "avgReconciliationTime": 0.9606519007557163,
+      "eventsValidated": 8,
+      "avgEventsPerMinute": 78571644.88,
       "configuration": {
         "maxActiveEvents": 10000,
         "eventTimeoutHours": 48,
@@ -14081,7 +14144,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752486143179
+      "timestamp": 1752486158176
     }
   }
 }
