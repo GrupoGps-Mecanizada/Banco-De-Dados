@@ -14956,11 +14956,42 @@
       "event_duration_minutes": 0,
       "event_first_seen": "2025-07-14T10:56:33.876Z",
       "event_update_count": 1
+    },
+    {
+      "id": "1752490599012_se7twy8mc",
+      "vacancy_code": "316",
+      "vacancy_name": "CAMINHÃO AUTO VÁCUO - GPS - 05",
+      "status": "on",
+      "status_title": "Motor Ligado",
+      "start": "2025-07-14 07:54:33",
+      "end": "2025-07-14 07:57:31",
+      "total_time": 0.049444444444444,
+      "captured_at": "2025-07-14T10:56:39.012Z",
+      "session_id": 1752448475045,
+      "continuous_capture_mode": true,
+      "production_status": "Operacional (Trânsito)",
+      "vehicle_type": "AUTO VÁCUO",
+      "operational_status": "ACTIVE",
+      "operational_priority": 100,
+      "status_category": "priority_resolution",
+      "conflict_resolved": true,
+      "event_state": "NOVO",
+      "event_sequence": "UNDEFINED",
+      "transition_metadata": {
+        "previous_status": "not_appropriated",
+        "transition_type": "UNKNOWN_TRANSITION",
+        "time_gap_minutes": 474.55,
+        "sequence_number": 6,
+        "analysis_timestamp": "2025-07-14T10:56:39.012Z"
+      },
+      "event_duration_minutes": 0,
+      "event_first_seen": "2025-07-14T10:56:39.013Z",
+      "event_update_count": 1
     }
   ],
   "metadata": {
-    "totalCaptured": 476,
-    "duplicateCount": 1462,
+    "totalCaptured": 477,
+    "duplicateCount": 1471,
     "sessionStart": 1752448475045,
     "lastReset": null,
     "version": "4.3.5-enterprise-production-complete-fixed",
@@ -14973,7 +15004,7 @@
       "events": 0
     },
     "continuousCaptureEnabled": true,
-    "lastUpdate": "2025-07-14T10:56:34.173Z",
+    "lastUpdate": "2025-07-14T10:56:40.183Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -14987,18 +15018,18 @@
       "cpuUsage": 0,
       "lastGCTime": 1752490513213,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 2.0694901581784206,
-      "githubSyncTime": 3001,
-      "dailyCaptures": 476,
+      "dataProcessingTime": 0.5173725395446052,
+      "githubSyncTime": 3009,
+      "dailyCaptures": 477,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "manualCaptures": 1,
       "continuousCaptureStats": {
-        "totalCycles": 148,
-        "avgProcessingTime": 15.81089236309532,
-        "avgRecordsPerCycle": 2.6095677635078895,
-        "immediateUploads": 60,
+        "totalCycles": 150,
+        "avgProcessingTime": 9.20272309077383,
+        "avgRecordsPerCycle": 1.1523919408769725,
+        "immediateUploads": 61,
         "dataIntegrityScore": 100
       },
       "ereReconciliationTime": 0
@@ -15025,48 +15056,48 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 58,
+      "totalUploads": 59,
       "totalFailures": 3,
       "totalRetries": 0,
-      "avgUploadTime": 3073.6567944081385,
-      "immediateUploads": 58
+      "avgUploadTime": 3041.328397204069,
+      "immediateUploads": 59
     },
     "compression": true,
-    "recordCount": 476,
-    "uploadTimestamp": 1752490594174,
+    "recordCount": 477,
+    "uploadTimestamp": 1752490600183,
     "sessionId": 1752448475045,
     "statusConflicts": {
       "totalConflicts": 50,
       "recentConflicts": 50,
       "conflictRate": 0.83,
-      "avgPriorityDiff": 79,
+      "avgPriorityDiff": 80.8,
       "mostConflictedVacancy": "312",
-      "uniqueVacanciesWithConflicts": 4
+      "uniqueVacanciesWithConflicts": 5
     },
     "continuousCapture": {
       "enabled": true,
       "noHibernation": true,
       "immediateProcessing": true,
       "immediateUpload": true,
-      "continuousCycles": 578,
-      "immediateUploads": 60,
-      "dataIntegrityScore": 77.37,
-      "lastProcessTime": 1752490593897,
-      "lastCompleteProcess": 1752490593897
+      "continuousCycles": 580,
+      "immediateUploads": 61,
+      "dataIntegrityScore": 77.35,
+      "lastProcessTime": 1752490599021,
+      "lastCompleteProcess": 1752490599021
     },
     "eventReconciliation": {
       "enabled": true,
       "immediateMode": true,
-      "activeEvents": 6,
-      "totalEvents": 1938,
-      "newEvents": 972,
+      "activeEvents": 2,
+      "totalEvents": 1948,
+      "newEvents": 975,
       "ongoingEvents": 0,
-      "finalizedEvents": 966,
+      "finalizedEvents": 973,
       "timeoutEvents": 0,
-      "lastReconciliation": "2025-07-14T10:56:33.880Z",
-      "avgReconciliationTime": 2.02200611057546,
-      "eventsValidated": 6,
-      "avgEventsPerMinute": 57507244.61,
+      "lastReconciliation": "2025-07-14T10:56:39.013Z",
+      "avgReconciliationTime": 0.505501527643865,
+      "eventsValidated": 2,
+      "avgEventsPerMinute": 231215918.47,
       "configuration": {
         "maxActiveEvents": 10000,
         "eventTimeoutHours": 48,
@@ -15082,7 +15113,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752490594174
+      "timestamp": 1752490600186
     }
   }
 }
