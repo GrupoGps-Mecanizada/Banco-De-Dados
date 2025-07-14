@@ -10599,7 +10599,7 @@
   ],
   "metadata": {
     "totalCaptured": 338,
-    "duplicateCount": 373,
+    "duplicateCount": 375,
     "sessionStart": 1752448475045,
     "lastReset": null,
     "version": "4.3.5-enterprise-production-complete-fixed",
@@ -10612,7 +10612,7 @@
       "events": 0
     },
     "continuousCaptureEnabled": true,
-    "lastUpdate": "2025-07-13T23:59:29.153Z",
+    "lastUpdate": "2025-07-14T00:00:34.166Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -10627,7 +10627,7 @@
       "lastGCTime": 1752450876051,
       "requestsPerMinute": 0,
       "dataProcessingTime": 2.422449887963012,
-      "githubSyncTime": 2799,
+      "githubSyncTime": 63530,
       "dailyCaptures": 338,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -10664,15 +10664,15 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 22,
+      "totalUploads": 23,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 5222.3968896865845,
-      "immediateUploads": 22
+      "avgUploadTime": 34376.19844484329,
+      "immediateUploads": 23
     },
     "compression": true,
     "recordCount": 338,
-    "uploadTimestamp": 1752451169153,
+    "uploadTimestamp": 1752451234166,
     "sessionId": 1752448475045,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -10687,25 +10687,25 @@
       "noHibernation": true,
       "immediateProcessing": true,
       "immediateUpload": true,
-      "continuousCycles": 110,
-      "immediateUploads": 22,
-      "dataIntegrityScore": 84.26,
-      "lastProcessTime": 1752451148497,
-      "lastCompleteProcess": 1752451148497
+      "continuousCycles": 111,
+      "immediateUploads": 24,
+      "dataIntegrityScore": 84.22,
+      "lastProcessTime": 1752451213431,
+      "lastCompleteProcess": 1752451213431
     },
     "eventReconciliation": {
       "enabled": true,
       "immediateMode": true,
       "activeEvents": 1,
-      "totalEvents": 711,
-      "newEvents": 356,
+      "totalEvents": 713,
+      "newEvents": 357,
       "ongoingEvents": 0,
-      "finalizedEvents": 355,
+      "finalizedEvents": 356,
       "timeoutEvents": 0,
-      "lastReconciliation": "2025-07-13T23:59:08.495Z",
-      "avgReconciliationTime": 0.5000123223871924,
+      "lastReconciliation": "2025-07-14T00:00:13.428Z",
+      "avgReconciliationTime": 0.2500061611935962,
       "eventsValidated": 1,
-      "avgEventsPerMinute": 85317897.36,
+      "avgEventsPerMinute": 171115782.89,
       "configuration": {
         "maxActiveEvents": 10000,
         "eventTimeoutHours": 48,
@@ -10721,7 +10721,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752451169153
+      "timestamp": 1752451234166
     }
   }
 }
