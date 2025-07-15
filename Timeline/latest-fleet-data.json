@@ -17313,7 +17313,7 @@
     },
     "continuousCaptureEnabled": true,
     "lastPersist": 1752614879772,
-    "lastUpdate": "2025-07-15T21:28:52.770Z",
+    "lastUpdate": "2025-07-15T21:28:56.312Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -17328,7 +17328,7 @@
       "lastGCTime": 1752614271174,
       "requestsPerMinute": 0,
       "dataProcessingTime": 10.188236031751593,
-      "githubSyncTime": 1576,
+      "githubSyncTime": 1670,
       "dailyCaptures": 2110,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -17365,15 +17365,15 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 2,
+      "totalUploads": 3,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 1257.25,
-      "immediateUploads": 2
+      "avgUploadTime": 1463.625,
+      "immediateUploads": 3
     },
     "compression": true,
     "recordCount": 548,
-    "uploadTimestamp": 1752614932770,
+    "uploadTimestamp": 1752614936312,
     "sessionId": 1752614882799,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -17389,7 +17389,7 @@
       "immediateProcessing": true,
       "immediateUpload": true,
       "continuousCycles": 100,
-      "immediateUploads": 3,
+      "immediateUploads": 4,
       "dataIntegrityScore": 78.9,
       "lastProcessTime": 1752614932553,
       "lastCompleteProcess": 1752614932553
@@ -17422,7 +17422,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752614932770
+      "timestamp": 1752614936313
     }
   }
 }
