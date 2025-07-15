@@ -9168,7 +9168,7 @@
     },
     "continuousCaptureEnabled": true,
     "lastPersist": 1752585897703,
-    "lastUpdate": "2025-07-15T13:28:06.371Z",
+    "lastUpdate": "2025-07-15T13:29:00.925Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -9178,12 +9178,12 @@
       "totalRequests": 5,
       "totalErrors": 0,
       "uptime": 1752585900889,
-      "memoryUsage": 95,
+      "memoryUsage": 69,
       "cpuUsage": 0,
       "lastGCTime": 1752585855221,
       "requestsPerMinute": 0,
       "dataProcessingTime": 4.336442114648082,
-      "githubSyncTime": 1322,
+      "githubSyncTime": 1158,
       "dailyCaptures": 1561,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -9200,15 +9200,15 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752586081893,
+      "lastHealthCheck": 1752586140926,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752586081897,
+      "lastHeartbeat": 1752586140927,
       "componentStatus": {
         "dataCapturer": "degraded",
         "githubSync": "healthy",
-        "dateAutomation": "degraded",
+        "dateAutomation": "healthy",
         "memoryManager": "healthy",
         "networking": "healthy",
         "backupManager": "healthy",
@@ -9220,15 +9220,15 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 16,
+      "totalUploads": 17,
       "totalFailures": 2,
       "totalRetries": 0,
-      "avgUploadTime": 6023.618118286133,
-      "immediateUploads": 16
+      "avgUploadTime": 3590.8090591430664,
+      "immediateUploads": 17
     },
     "compression": true,
     "recordCount": 293,
-    "uploadTimestamp": 1752586086371,
+    "uploadTimestamp": 1752586140925,
     "sessionId": 1752585900888,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -9244,7 +9244,7 @@
       "immediateProcessing": true,
       "immediateUpload": true,
       "continuousCycles": 161,
-      "immediateUploads": 18,
+      "immediateUploads": 19,
       "dataIntegrityScore": 86.34,
       "lastProcessTime": 1752586086164,
       "lastCompleteProcess": 1752586086164
@@ -9277,7 +9277,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752586086371
+      "timestamp": 1752586140925
     }
   }
 }
