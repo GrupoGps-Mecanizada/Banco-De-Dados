@@ -29038,7 +29038,7 @@
     },
     "continuousCaptureEnabled": true,
     "lastPersist": 1752614879772,
-    "lastUpdate": "2025-07-15T21:29:40.267Z",
+    "lastUpdate": "2025-07-15T21:30:03.218Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -29048,12 +29048,12 @@
       "totalRequests": 9,
       "totalErrors": 0,
       "uptime": 1752614882803,
-      "memoryUsage": 94,
+      "memoryUsage": 116,
       "cpuUsage": 0,
       "lastGCTime": 1752614271174,
       "requestsPerMinute": 0,
       "dataProcessingTime": 6.317889224792965,
-      "githubSyncTime": 3701,
+      "githubSyncTime": 2508,
       "dailyCaptures": 2478,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
@@ -29070,11 +29070,11 @@
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752614973813,
+      "lastHealthCheck": 1752615003219,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752614973814,
+      "lastHeartbeat": 1752615003220,
       "componentStatus": {
         "dataCapturer": "degraded",
         "githubSync": "healthy",
@@ -29090,15 +29090,15 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 18,
+      "totalUploads": 19,
       "totalFailures": 1,
       "totalRetries": 0,
-      "avgUploadTime": 4043.530658721924,
-      "immediateUploads": 18
+      "avgUploadTime": 3275.765329360962,
+      "immediateUploads": 19
     },
     "compression": true,
     "recordCount": 916,
-    "uploadTimestamp": 1752614980267,
+    "uploadTimestamp": 1752615003218,
     "sessionId": 1752614882799,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -29114,7 +29114,7 @@
       "immediateProcessing": true,
       "immediateUpload": true,
       "continuousCycles": 116,
-      "immediateUploads": 19,
+      "immediateUploads": 20,
       "dataIntegrityScore": 78.16,
       "lastProcessTime": 1752614979732,
       "lastCompleteProcess": 1752614979732
@@ -29147,7 +29147,7 @@
       "antiFragmentation": true,
       "cleanLogs": true,
       "dataIntegrity": true,
-      "timestamp": 1752614980267
+      "timestamp": 1752615003218
     }
   }
 }
