@@ -5202,7 +5202,7 @@
     },
     "continuousCaptureEnabled": true,
     "lastPersist": 1752669606331,
-    "lastUpdate": "2025-07-16T13:11:42.032Z",
+    "lastUpdate": "2025-07-16T13:11:42.940Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -5212,33 +5212,33 @@
       "totalRequests": 4,
       "totalErrors": 0,
       "uptime": 1752669612571,
-      "memoryUsage": 85,
+      "memoryUsage": 95,
       "cpuUsage": 0,
       "lastGCTime": 1752671413577,
       "requestsPerMinute": 0,
-      "dataProcessingTime": 3.149431372301933,
-      "githubSyncTime": 2242,
-      "dailyCaptures": 1122,
+      "dataProcessingTime": 4.074715686150967,
+      "githubSyncTime": 1667,
+      "dailyCaptures": 1137,
       "duplicatesPerHour": 0,
       "conflictsPerHour": 0,
       "adaptiveScore": 100,
       "manualCaptures": 2,
       "continuousCaptureStats": {
-        "totalCycles": 42,
-        "avgProcessingTime": 13.93476747166278,
-        "avgRecordsPerCycle": 11.660154321990149,
-        "immediateUploads": 13,
+        "totalCycles": 43,
+        "avgProcessingTime": 15.96738373583139,
+        "avgRecordsPerCycle": 13.330077160995074,
+        "immediateUploads": 14,
         "dataIntegrityScore": 100
       },
       "ereReconciliationTime": 0
     },
     "health": {
       "status": "warning",
-      "lastHealthCheck": 1752671502618,
+      "lastHealthCheck": 1752671503677,
       "memoryPressure": false,
       "errorThresholdReached": false,
       "circuitBreakerOpen": false,
-      "lastHeartbeat": 1752671502618,
+      "lastHeartbeat": 1752671503678,
       "componentStatus": {
         "dataCapturer": "degraded",
         "githubSync": "healthy",
@@ -5254,15 +5254,15 @@
       }
     },
     "uploadStats": {
-      "totalUploads": 12,
+      "totalUploads": 13,
       "totalFailures": 0,
       "totalRetries": 0,
-      "avgUploadTime": 2494.442626953125,
-      "immediateUploads": 12
+      "avgUploadTime": 2081.2213134765625,
+      "immediateUploads": 13
     },
     "compression": true,
     "recordCount": 167,
-    "uploadTimestamp": 1752671502032,
+    "uploadTimestamp": 1752671502940,
     "sessionId": 1752669612569,
     "statusConflicts": {
       "totalConflicts": 50,
@@ -5278,7 +5278,7 @@
       "immediateProcessing": true,
       "immediateUpload": true,
       "continuousCycles": 127,
-      "immediateUploads": 13,
+      "immediateUploads": 14,
       "dataIntegrityScore": 85.66,
       "lastProcessTime": 1752671501806,
       "lastCompleteProcess": 1752671501823
@@ -5309,7 +5309,7 @@
       "deduplicationLogic": "time-window-map",
       "watchdog": "active",
       "flexibleRegex": true,
-      "timestamp": 1752671502032
+      "timestamp": 1752671502940
     }
   }
 }
