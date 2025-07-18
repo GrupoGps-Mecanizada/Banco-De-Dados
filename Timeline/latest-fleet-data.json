@@ -19648,7 +19648,7 @@
     }
   ],
   "metadata": {
-    "totalCaptured": 2679,
+    "totalCaptured": 3572,
     "duplicateCount": 0,
     "sessionStart": 1752798069551,
     "lastReset": null,
@@ -19662,7 +19662,7 @@
       "events": 0
     },
     "continuousCaptureEnabled": true,
-    "lastUpdate": "2025-07-18T00:36:15.238Z",
+    "lastUpdate": "2025-07-18T00:41:15.238Z",
     "source": "gaussfleet-enterprise-continuous",
     "environment": "production",
     "metrics": {
@@ -19670,16 +19670,16 @@
     },
     "health": {
       "status": "healthy",
-      "lastCheck": 1752798975223
+      "lastCheck": 1752799275228
     },
     "uploadStats": {
-      "total": 4,
-      "successful": 4,
+      "total": 5,
+      "successful": 5,
       "failed": 0
     },
     "compression": false,
     "recordCount": 893,
-    "uploadTimestamp": 1752798975238,
+    "uploadTimestamp": 1752799275238,
     "sessionId": 1752798069551,
     "statusConflicts": {},
     "continuousCapture": {
@@ -19687,8 +19687,8 @@
       "noHibernation": true,
       "immediateProcessing": true,
       "immediateUpload": true,
-      "continuousCycles": 4,
-      "immediateUploads": 8,
+      "continuousCycles": 5,
+      "immediateUploads": 9,
       "dataIntegrityScore": 100,
       "lastProcessTime": 0,
       "lastCompleteProcess": 0
